@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -89,7 +89,8 @@
                     <svg class="" width="291" height="391" viewBox="0 0 291 391" fill="none"
                               xmlns="http://www.w3.org/2000/svg">
                         <rect class="parking-space a" width="15.9605" height="8.57558"
-                              transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 260.961 372.2)" fill="#A8CC8D" />
+                        
+                              transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 260.961 372.2)" fill="{{ $data['S1']['status_slot']==1?'#FF0000':'#A8CC8D' }}" />
                         <text transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 260.961 372.2)" x="7.98025" y="4.28779" text-anchor="middle" dominant-baseline="middle" font-size="5" fill="black">A1</text>
 
                         <rect class="parking-space a" width="15.9605" height="8.57558"
