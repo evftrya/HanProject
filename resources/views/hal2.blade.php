@@ -77,9 +77,9 @@
             <a href="{{ route('area-b') }}" class="w-full shadow-xl rounded-lg bg-black py-5 text-white flex justify-center items-center">
                 Area B
             </a>
-            <button class="w-full shadow-xl rounded-lg bg-black py-5 text-white flex justify-center items-center">
-                Area c
-            </button>
+            <a href="{{ route('area-c') }}" class="w-full shadow-xl rounded-lg bg-black py-5 text-white flex justify-center items-center">
+                Area C
+            </a>
         </div>
 
 

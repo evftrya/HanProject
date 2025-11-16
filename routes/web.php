@@ -25,9 +25,16 @@ Route::get('/area-a', function () {
 
 Route::get('/area-b', function () {
     // $data = json_decode(file_get_contents(public_path('firebase-example.json')), true);
-    $data = json_decode(file_get_contents(public_path('firebase-example.json')), true)['Parkir']['Area_A'];
+    $data = json_decode(file_get_contents(public_path('firebase-example.json')), true)['Parkir']['Area_B'];
     // dd($data);
     return view('area-b',compact('data'));
 })->name('area-b');
+
+Route::get('/area-c', function () {
+    // $data = json_decode(file_get_contents(public_path('firebase-example.json')), true);
+    $data = json_decode(file_get_contents(public_path('firebase-example.json')), true)['Parkir']['Area_C'];
+    // dd($data);
+    return view('area-c',compact('data'));
+})->name('area-c');
 
 

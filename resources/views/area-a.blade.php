@@ -73,8 +73,8 @@
          </div>
 
          <div class="flex flex-col gap-5 justify-center items-center">
-             <h1 class="text-xl text-red-600 text-center px-5 mb-5">
-                 Silahkan menuju ke Area A yang terletak pada denah dibawah ini
+             <h1 class="text-xl text-black text-center px-5 mb-5">
+                 Silahkan <span class="font-bold">menuju ke Area A</span> yang terletak pada denah dibawah ini
              </h1>
 
              <div class="position-relative w-[300px] h-[500px] flex justify-center items-center"
@@ -88,11 +88,8 @@
                      {{-- style="position: absolute !important;z-indez:100 !important;left:35px;top:65px;"> --}}
                      <svg width="377" height="505" viewBox="0 0 377 505" fill="none"
                          xmlns="http://www.w3.org/2000/svg">
-                         <path d="M317.5 355H309.547V120V113.5H149.5V92" stroke="#20FD2F" />
-                         <path d="M317.5 355H310.21V120V113.5H163.5V92" stroke="#20FD2F" />
-                         <path d="M317.5 355H310.873V120V113.5H177.5V92" stroke="#20FD2F" />
-                         <path d="M317.5 355H311.536V120V113.5H191.5V92" stroke="#20FD2F" />
-                         <path d="M317.5 355H312.151V120V113.5H204.5V92" stroke="#20FD2F" />
+
+
                          <path d="M313.5 355H310.849V85.1521V77.6882H257.5V53" stroke="#20FD2F" />
                          <path d="M313.5 355H311.37V85.1521V77.6882H268.5V53" stroke="#20FD2F" />
                          <path d="M313.5 355H311.891V85.1521V77.6882H279.5V53" stroke="#20FD2F" />
@@ -147,6 +144,8 @@
                          <path d="M318 355H50V381.5H39V431.5L20 430.5" stroke="#20FD2F" />
                          <path d="M318 355H50V381.5H39V421L20 420.137" stroke="#20FD2F" />
                          <path d="M318 355H50V381.601H39V410L20 409.281" stroke="#20FD2F" />
+                         <path d="M318 355H299.224V394H284" stroke="#20FD2F" />
+
 
                          <!-- A1–A8 -->
                          <rect width="20.6417" height="8.44863"
@@ -264,30 +263,35 @@
                              fill="black">A17</text>
 
                          <!-- A18–A22 -->
+                         <path d="M317.5 355H309.547V120V113.5H149.5V92" stroke="#20FD2F" />
                          <rect width="20.7009" height="8.44863"
                              transform="matrix(0.000960682 1 -0.999975 0.00705118 154.156 76.3215)" fill="#A8CC8D" />
                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 154.156 76.3215)" x="10.3504"
                              y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
                              fill="black">A18</text>
-
+                         
+                             <path d="M317.5 355H310.21V120V113.5H163.5V92" stroke="#20FD2F" />
                          <rect width="20.7009" height="8.44863"
                              transform="matrix(0.000960682 1 -0.999975 0.00705118 167.93 76.3215)" fill="#A8CC8D" />
                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 167.93 76.3215)" x="10.3504"
                              y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
                              fill="black">A19</text>
 
+                         <path d="M317.5 355H310.873V120V113.5H177.5V92" stroke="#20FD2F" />
                          <rect width="20.7009" height="8.44863"
                              transform="matrix(0.000960682 1 -0.999975 0.00705118 181.695 76.3215)" fill="#A8CC8D" />
                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 181.695 76.3215)" x="10.3504"
                              y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
                              fill="black">A20</text>
 
+                         <path d="M317.5 355H311.536V120V113.5H191.5V92" stroke="#20FD2F" />
                          <rect width="20.7009" height="8.44863"
                              transform="matrix(0.000960682 1 -0.999975 0.00705118 195.461 76.3215)" fill="#A8CC8D" />
                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 195.461 76.3215)" x="10.3504"
                              y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
                              fill="black">A21</text>
 
+                         <path d="M317.5 355H312.151V120V113.5H204.5V92" stroke="#20FD2F" />
                          <rect width="20.7009" height="8.44863"
                              transform="matrix(0.000960682 1 -0.999975 0.00705118 209.227 76.3215)" fill="#A8CC8D" />
                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 209.227 76.3215)" x="10.3504"
@@ -548,6 +552,7 @@
                          <text transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 262.078 367.261)" x="9.1606"
                              y="4.2296" text-anchor="middle" dominant-baseline="middle" font-size="5"
                              fill="black">A60</text>
+
                      </svg>
 
 
