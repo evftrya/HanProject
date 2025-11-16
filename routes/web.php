@@ -37,4 +37,11 @@ Route::get('/area-c', function () {
     return view('area-c',compact('data'));
 })->name('area-c');
 
+Route::get('/area-monitoring', function () {
+    // $data = json_decode(file_get_contents(public_path('firebase-example.json')), true);
+    // $data = json_decode(file_get_contents(public_path('firebase-example.json')), true)['Parkir']['Area_C'];
+    // dd($data);
+    return view('area-monitoring');
+})->name('area-monitoring');
+
 
