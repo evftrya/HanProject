@@ -76,7 +76,9 @@
 
          <div class="flex flex-col gap-5 justify-center items-center">
              <h1 class="text-xl text-red-600 text-center px-5 mb-5">
-                 Silahkan menuju ke Area A yang terletak pada denah dibawah ini
+                 {{-- Silahkan menuju ke Area A yang terletak pada denah dibawah ini --}}
+                 Silahkan <span class="font-bold">menuju ke Area C</span> yang terletak pada denah dibawah ini
+
              </h1>
 
              <div class="position-relative flex-grow w-full h-fit flex justify-start items-start overflow-auto "
