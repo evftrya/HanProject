@@ -85,29 +85,22 @@ class ParkingLogicService
         $ultra_is_Mati = $this->fuzzifySensor_Mati($ultrasonik);
 
 
-        // --- TAHAP 2: INFERENSI (Menerapkan Aturan) ---
-        // Kita tentukan aturan (rules) untuk output "Terisi" dan "Kosong"
+        // --- TAHAP 2: INFERENSI (Menerapkan Aturan - VERSI REVISI) ---
         // Fuzzy Operator: AND = min(), OR = max()
 
-        // Aturan 1 (Rule 1): Sesuai permintaanmu (SANGAT KETAT)
-        // IF (jarak is SangatDekat) AND (ultrasonik is Aktif) AND (inframerah is Aktif) THEN status is Terisi
-        $kekuatan_R1_Terisi = min($jarak_is_SangatDekat, $ultra_is_Aktif, $infra_is_Aktif);
+        // Aturan 1 (REVISI): IF (ultrasonik is Aktif) AND (inframerah is Aktif) THEN status is Terisi
+        // 'jarak' DIHAPUS dari aturan ini agar S2 bisa terdeteksi "Terisi".
+        $kekuatan_R1_Terisi = min($ultra_is_Aktif, $infra_is_Aktif);
 
-        // Aturan 2 (Rule 2): Jika jaraknya jauh, pasti kosong
-        // IF (jarak is Jauh) THEN status is Kosong
-        $kekuatan_R2_Kosong = $jarak_is_Jauh;
-
-        // Aturan 3 (Rule 3): Jika salah satu sensor mati, anggap kosong (sesuai aturan ketat R1)
-        // IF (ultrasonik is Mati) OR (inframerah is Mati) THEN status is Kosong
-        $kekuatan_R3_Kosong = max($ultra_is_Mati, $infra_is_Mati);
+        // Aturan 2 (REVISI): IF (jarak is Jauh) AND (ultrasonik is Mati) AND (inframerah is Mati) THEN status is Kosong
+        // Aturan ini diperketat untuk menangani S1 secara akurat.
+        // Aturan R3 yang lama (OR) dihapus karena sudah dicakup oleh R2 baru ini.
+        $kekuatan_R2_Kosong = min($jarak_is_Jauh, $ultra_is_Mati, $infra_is_Mati);
 
 
         // Agregasi: Gabungkan semua kekuatan untuk output yang sama
-        // Kita hanya punya 1 aturan untuk "Terisi", jadi skor akhirnya adalah R1
         $skor_Fuzzy_Terisi = $kekuatan_R1_Terisi;
-
-        // Kita punya 2 aturan untuk "Kosong", kita ambil yang terkuat
-        $skor_Fuzzy_Kosong = max($kekuatan_R2_Kosong, $kekuatan_R3_Kosong);
+        $skor_Fuzzy_Kosong = $kekuatan_R2_Kosong; // Hanya R2 yang baru
 
 
         // --- TAHAP 3: DEFUZZIFIKASI ---
