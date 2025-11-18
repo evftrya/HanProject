@@ -19,7 +19,6 @@ Sistem ini dibangun di atas arsitektur modern yang solid dan skalabel:
 
 ### Database
 * **Firebase Realtime Database**: Sumber data utama untuk pembacaan sensor (IoT) secara *real-time*.
-* **SQL Database (MySQL/PostgreSQL)**: Penyimpanan data persisten untuk riwayat parkir, data pengguna, dan konfigurasi sistem.
 
 ### Manajemen Dependensi & Tools
 * **Composer**: Manajemen paket PHP.
@@ -79,6 +78,9 @@ Skor_Akhir  = pembilang / penyebut
 Sistem menggunakan ambang batas (threshold) 0.5:
 - Jika Skor_Akhir > 0.5 → Status: TERISI
 - Jika Skor_Akhir ≤ 0.5 → Status: KOSONG
+
+Lebih Detail pada File Berikut :
+https://github.com/evftrya/HanProject/blob/main/documentation/readme-logic-fuzzy.md
 
 ## 🚀 Instalasi (Opsional)
 1. Clone repositori ini.
