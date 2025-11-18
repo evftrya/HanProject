@@ -148,13 +148,13 @@
 
 
                          <!-- A1–A8 -->
-                         <rect width="20.6417" height="8.44863"
+                         <rect id="A1" width="20.6417" height="8.44863"
                              transform="matrix(0.000960682 1 -0.999975 0.00705118 191.25 174.056)" fill="#A8CC8D" />
                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 191.25 174.056)" x="10.3208"
                              y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
                              fill="black">A1</text>
 
-                         <rect width="20.6417" height="8.44863"
+                         <rect id="A2" width="20.6417" height="8.44863"
                              transform="matrix(0.000960682 1 -0.999975 0.00705118 203.695 174.056)" fill="#A8CC8D" />
                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 203.695 174.056)" x="10.3208"
                              y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -269,8 +269,8 @@
                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 154.156 76.3215)" x="10.3504"
                              y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
                              fill="black">A18</text>
-                         
-                             <path d="M317.5 355H310.21V120V113.5H163.5V92" stroke="#20FD2F" />
+
+                         <path d="M317.5 355H310.21V120V113.5H163.5V92" stroke="#20FD2F" />
                          <rect width="20.7009" height="8.44863"
                              transform="matrix(0.000960682 1 -0.999975 0.00705118 167.93 76.3215)" fill="#A8CC8D" />
                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 167.93 76.3215)" x="10.3504"
@@ -573,7 +573,61 @@
              mobileMenu.classList.toggle('hidden');
          });
      </script>
+     <script>
+         // Konfigurasi
+         const AREA_NAME = 'Area_A'; // Sesuai nama di Database Firebase/API
+         const PREFIX_ID = 'A'; // Sesuai huruf depan ID di SVG (A1, A2...)
+         const API_URL = `/status/${AREA_NAME}`;
 
+         const COLOR_KOSONG = '#A8CC8D'; // Hijau (sesuai warna aslimu)
+         const COLOR_TERISI = '#DC2626'; // Merah (Tailwind red-600)
+
+         async function updateParkingStatus() {
+             try {
+                 // 1. Fetch data dari API Laravel
+                 const response = await fetch(API_URL);
+                 const result = await response.json();
+
+                 // Pastikan data ada
+                 if (!result[AREA_NAME]) return;
+
+                 const slots = result[AREA_NAME];
+
+                 // 2. Loop setiap data slot (S1, S2, S3...)
+                 for (const [key, value] of Object.entries(slots)) {
+                     // key = "S1", value = { status_slot: "Kosong/Terisi" ... }
+
+                     // 3. Ubah ID dari API (S1) ke ID SVG (A1)
+                     // Kita ganti huruf 'S' menjadi prefix area ('A')
+                     const slotNumber = key.replace('S', '');
+                     const svgId = `${PREFIX_ID}${slotNumber}`; // Jadi "A1", "A2", dst.
+
+                     // 4. Cari elemen SVG
+                     const element = document.getElementById(svgId);
+
+                     if (element) {
+                         // 5. Tentukan Warna
+                         const isOccupied = value.status_slot === 'Terisi';
+                         const newColor = isOccupied ? COLOR_TERISI : COLOR_KOSONG;
+
+                         // 6. Ubah warna di layar
+                         element.setAttribute('fill', newColor);
+                     }
+                 }
+
+             } catch (error) {
+                 console.error("Gagal mengambil data parkir:", error);
+             }
+         }
+
+         // Jalankan pertama kali saat load
+         document.addEventListener('DOMContentLoaded', () => {
+             updateParkingStatus();
+
+             // Jalankan ulang setiap 2 detik (2000 ms)
+             setInterval(updateParkingStatus, 2000);
+         });
+     </script>
  </body>
 
  </html>

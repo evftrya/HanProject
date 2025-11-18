@@ -590,7 +590,44 @@
              mobileMenu.classList.toggle('hidden');
          });
      </script>
+     <script>
+         const AREA_NAME = 'Area_C';
+         const PREFIX_ID = 'C'; // SVG kamu pake ID="C1", "C2"...
+         const API_URL = `/status/${AREA_NAME}`;
 
+         const COLOR_KOSONG = '#A8CC8D';
+         const COLOR_TERISI = '#DC2626';
+
+         async function updateParkingStatus() {
+             try {
+                 const response = await fetch(API_URL);
+                 const result = await response.json();
+                 if (!result[AREA_NAME]) return;
+
+                 const slots = result[AREA_NAME];
+
+                 for (const [key, value] of Object.entries(slots)) {
+                     // Logic ganti S1 -> C1
+                     const slotNumber = key.replace('S', '');
+                     const svgId = `${PREFIX_ID}${slotNumber}`;
+
+                     const element = document.getElementById(svgId);
+                     if (element) {
+                         const isOccupied = value.status_slot === 'Terisi';
+                         const newColor = isOccupied ? COLOR_TERISI : COLOR_KOSONG;
+                         element.setAttribute('fill', newColor);
+                     }
+                 }
+             } catch (error) {
+                 console.error("Error fetching Area C:", error);
+             }
+         }
+
+         document.addEventListener('DOMContentLoaded', () => {
+             updateParkingStatus();
+             setInterval(updateParkingStatus, 2000);
+         });
+     </script>
  </body>
 
  </html>
