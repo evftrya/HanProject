@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\areaStatus;
 
 Route::get('/', function () {
     $data = json_decode(file_get_contents(public_path('firebase-example.json')), true);
@@ -44,4 +45,5 @@ Route::get('/area-monitoring', function () {
     return view('area-monitoring');
 })->name('area-monitoring');
 
+Route::get('/status/{areaName}', areaStatus::class)->name('api.parking.status');
 
