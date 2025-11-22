@@ -44,6 +44,20 @@ Route::get('/area-monitoring', function () {
     // dd($data);
     return view('area-monitoring');
 })->name('area-monitoring');
+Route::get('/hint', function () {
+    // $data = json_decode(file_get_contents(public_path('firebase-example.json')), true);
+    // $data = json_decode(file_get_contents(public_path('firebase-example.json')), true)['Parkir']['Area_C'];
+    // dd($data);
+    return view('hint');
+})->name('area-monitoring');
+
+
+Route::get('/rapi', function () {
+    // $data = json_decode(file_get_contents(public_path('firebase-example.json')), true);
+    // $data = json_decode(file_get_contents(public_path('firebase-example.json')), true)['Parkir']['Area_C'];
+    // dd($data);
+    return view('rapi');
+})->name('rapi');
 
 Route::get('/status/{areaName}', areaStatus::class)->name('api.parking.status');
 
