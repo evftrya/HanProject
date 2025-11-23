@@ -60,7 +60,7 @@
   </header>
 
   <main class="px-10 flex flex-col flex-grow">
-    <div class="flex flex-col border-b border-gray-400 justify-evenly items-center min-h-screen">
+    < class="flex flex-col border-b border-gray-400 justify-evenly items-center min-h-screen">
         <h1 class="text-3xl text-center px-5">
             Pilih Area lahan parkir yang ingin dituju
         </h1>
@@ -70,6 +70,7 @@
         <h1 class="text-xl text-center px-5">
             Pilih Area parkir yang ingin dituju
         </h1>
+        </br>
         <div class="flex flex-col w-full sm:w-2/5 px-10 gap-10">
             <a href="{{ route('area-a') }}" class="w-full shadow-xl rounded-lg bg-black py-5 text-white flex justify-center items-center">
                 Area A
@@ -85,7 +86,7 @@
 
     </div>
 
-    
+
   </main>
 
   <script>
