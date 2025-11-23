@@ -59,5 +59,13 @@ Route::get('/rapi', function () {
     return view('rapi');
 })->name('rapi');
 
+
+Route::get('/jd1', function () {
+    // $data = json_decode(file_get_contents(public_path('firebase-example.json')), true);
+    // $data = json_decode(file_get_contents(public_path('firebase-example.json')), true)['Parkir']['Area_C'];
+    // dd($data);
+    return view('jd1');
+})->name('jd1');
+
 Route::get('/status/{areaName}', areaStatus::class)->name('api.parking.status');
 
