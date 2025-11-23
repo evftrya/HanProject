@@ -90,7 +90,7 @@
          </div>
 
          <div class="flex flex-col gap-5 justify-center items-center">
-             <h1 class="text-xl text-black text-center px-5 mb-5">
+             <h1 class="text-xl text-red-600 text-center px-5 mb-5">
                  Silahkan <span class="font-bold">menuju ke Area A</span> yang terletak pada denah dibawah ini
              </h1>
 
