@@ -191,7 +191,7 @@
                                          <path d="M374 111V69.6612L225 65.5L91 60.5V39" stroke="" data-rect="1"
                                              data-path="C45">
                                          </path>
-                                         <rect x="83.9844" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="83.9844" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C45"></rect>
                                          <text x="90.4762" y="34.8689" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C45</text>
@@ -203,7 +203,7 @@
                                          <path d="M374 111V69.6612L107 59V39" stroke="" data-rect="2"
                                              data-path="C43">
                                          </path>
-                                         <rect x="100.211" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="100.211" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C43"></rect>
                                          <text x="106.7028" y="34.8689" text-anchor="middle"
                                              dominant-baseline="middle" font-size="5" fill="black">C43</text>
@@ -214,7 +214,7 @@
                                          <path d="M374 111V69.6612L123 58.5V39" stroke="" data-rect="3"
                                              data-path="C41">
                                          </path>
-                                         <rect x="116.445" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="116.445" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C41"></rect>
                                          <text x="122.9368" y="34.8689" text-anchor="middle"
                                              dominant-baseline="middle" font-size="5" fill="black">C41</text>
@@ -225,7 +225,7 @@
                                          <path d="M374 111V69.6612L140 61V39" stroke="" data-rect="4"
                                              data-path="C39">
                                          </path>
-                                         <rect x="132.672" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="132.672" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C39"></rect>
                                          <text x="139.1630" y="34.8689" text-anchor="middle"
                                              dominant-baseline="middle" font-size="5" fill="black">C39</text>
@@ -236,7 +236,7 @@
                                          <path d="M374 111V69.6612L156 61V39" stroke="" data-rect="5"
                                              data-path="C37">
                                          </path>
-                                         <rect x="148.898" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="148.898" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C37"></rect>
                                          <text x="155.3890" y="34.8689" text-anchor="middle"
                                              dominant-baseline="middle" font-size="5" fill="black">C37</text>
@@ -247,7 +247,7 @@
                                          <path d="M374 111V69.6612H185V39" stroke="" data-rect="6"
                                              data-path="C25">
                                          </path>
-                                         <rect x="178.117" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="178.117" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C25"></rect>
                                          <text x="184.6090" y="34.8689" text-anchor="middle"
                                              dominant-baseline="middle" font-size="5" fill="black">C25</text>
@@ -258,7 +258,7 @@
                                          <path d="M374 111V69.6612H201V39" stroke="" data-rect="7"
                                              data-path="C23">
                                          </path>
-                                         <rect x="194.344" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="194.344" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C23"></rect>
                                          <text x="200.8350" y="34.8689" text-anchor="middle"
                                              dominant-baseline="middle" font-size="5" fill="black">C23</text>
@@ -269,7 +269,7 @@
                                          <path d="M374 111V69.6612H218V39" stroke="" data-rect="8"
                                              data-path="C21">
                                          </path>
-                                         <rect x="210.578" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="210.578" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C21"></rect>
                                          <text x="217.0690" y="34.8689" text-anchor="middle"
                                              dominant-baseline="middle" font-size="5" fill="black">C21</text>
@@ -280,7 +280,7 @@
                                          <path d="M374 111V69.6612H234V39" stroke="" data-rect="9"
                                              data-path="C19">
                                          </path>
-                                         <rect x="226.805" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="226.805" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C19"></rect>
                                          <text x="233.2970" y="34.8689" text-anchor="middle"
                                              dominant-baseline="middle" font-size="5" fill="black">C19</text>
@@ -291,7 +291,7 @@
                                          <path d="M374 111V69.6612H250V39" stroke="" data-rect="10"
                                              data-path="C16">
                                          </path>
-                                         <rect x="243.039" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="243.039" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C16"></rect>
                                          <text x="249.5310" y="34.8689" text-anchor="middle"
                                              dominant-baseline="middle" font-size="5" fill="black">C16</text>
@@ -303,7 +303,7 @@
                                              data-path="C44">
                                          </path>
                                          <rect x="83.9844" y="74.2256" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C44"></rect>
+                                             fill="#D1D5DB" data-rect="C44"></rect>
                                          <text x="90.4762" y="86.8040" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C44</text>
                                      </g>
@@ -314,7 +314,7 @@
                                              data-path="C42">
                                          </path>
                                          <rect x="100.211" y="74.2261" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C42"></rect>
+                                             fill="#D1D5DB" data-rect="C42"></rect>
                                          <text x="106.7028" y="86.8040" text-anchor="middle"
                                              dominant-baseline="middle" font-size="5" fill="black">C42</text>
                                      </g>
@@ -325,7 +325,7 @@
                                              data-path="C40">
                                          </path>
                                          <rect x="116.445" y="74.2261" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C40"></rect>
+                                             fill="#D1D5DB" data-rect="C40"></rect>
                                          <text x="122.9368" y="86.8040" text-anchor="middle"
                                              dominant-baseline="middle" font-size="5" fill="black">C40</text>
                                      </g>
@@ -336,7 +336,7 @@
                                              data-path="C38">
                                          </path>
                                          <rect x="132.672" y="74.2261" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C38"></rect>
+                                             fill="#D1D5DB" data-rect="C38"></rect>
                                          <text x="139.1630" y="86.8040" text-anchor="middle"
                                              dominant-baseline="middle" font-size="5" fill="black">C38</text>
                                      </g>
@@ -347,7 +347,7 @@
                                              data-path="C36">
                                          </path>
                                          <rect x="148.898" y="74.2261" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C36"></rect>
+                                             fill="#D1D5DB" data-rect="C36"></rect>
                                          <text x="155.3890" y="86.8040" text-anchor="middle"
                                              dominant-baseline="middle" font-size="5" fill="black">C36</text>
                                      </g>
@@ -357,7 +357,7 @@
                                          <path d="M374 111V70H185V85" stroke="" data-rect="16" data-path="C24">
                                          </path>
                                          <rect x="178.117" y="79.0947" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C24"></rect>
+                                             fill="#D1D5DB" data-rect="C24"></rect>
                                          <text x="184.6090" y="91.6736" text-anchor="middle"
                                              dominant-baseline="middle" font-size="5" fill="black">C24</text>
                                      </g>
@@ -367,7 +367,7 @@
                                          <path d="M374 111V70H201V85" stroke="" data-rect="17" data-path="C22">
                                          </path>
                                          <rect x="194.344" y="79.0947" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C22"></rect>
+                                             fill="#D1D5DB" data-rect="C22"></rect>
                                          <text x="200.8350" y="91.6736" text-anchor="middle"
                                              dominant-baseline="middle" font-size="5" fill="black">C22</text>
                                      </g>
@@ -377,7 +377,7 @@
                                          <path d="M374 111V70H218V85" stroke="" data-rect="18" data-path="C20">
                                          </path>
                                          <rect x="210.578" y="79.0947" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C20"></rect>
+                                             fill="#D1D5DB" data-rect="C20"></rect>
                                          <text x="217.0690" y="91.6736" text-anchor="middle"
                                              dominant-baseline="middle" font-size="5" fill="black">C20</text>
                                      </g>
@@ -387,7 +387,7 @@
                                          <path d="M374 111V70H234V85" stroke="" data-rect="19" data-path="C18">
                                          </path>
                                          <rect x="226.805" y="79.0947" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C18"></rect>
+                                             fill="#D1D5DB" data-rect="C18"></rect>
                                          <text x="233.2970" y="91.6736" text-anchor="middle"
                                              dominant-baseline="middle" font-size="5" fill="black">C18</text>
                                      </g>
@@ -397,7 +397,7 @@
                                          <path d="M374 111V70H249V85" stroke="" data-rect="20" data-path="C17">
                                          </path>
                                          <rect x="243.039" y="79.0947" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C17"></rect>
+                                             fill="#D1D5DB" data-rect="C17"></rect>
                                          <text x="249.5310" y="91.6736" text-anchor="middle"
                                              dominant-baseline="middle" font-size="5" fill="black">C17</text>
                                      </g>
@@ -407,7 +407,7 @@
                                          <path d="M374 111V70H271V85" stroke="" data-rect="21" data-path="C15">
                                          </path>
                                          <rect x="264.133" y="79.0947" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C15"></rect>
+                                             fill="#D1D5DB" data-rect="C15"></rect>
                                          <text x="270.625" y="91.6736" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C15</text>
                                      </g>
@@ -417,7 +417,7 @@
                                          <path d="M374 111V70H287V85" stroke="" data-rect="22" data-path="C12">
                                          </path>
                                          <rect x="280.359" y="79.0947" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C12"></rect>
+                                             fill="#D1D5DB" data-rect="C12"></rect>
                                          <text x="286.851" y="91.6736" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C12</text>
                                      </g>
@@ -427,7 +427,7 @@
                                          <path d="M374 111V70H304V85" stroke="" data-rect="23" data-path="C10">
                                          </path>
                                          <rect x="296.594" y="79.0947" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C10"></rect>
+                                             fill="#D1D5DB" data-rect="C10"></rect>
                                          <text x="303.086" y="91.6736" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C10</text>
                                      </g>
@@ -436,7 +436,7 @@
                                      <g class="clickable">
                                          <path d="M374 111V70H319V85" stroke="" data-rect="24" data-path="C8">
                                          </path>
-                                         <rect x="312.82" y="79.0947" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="312.82" y="79.0947" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C8"></rect>
                                          <text x="319.312" y="91.6736" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C8</text>
@@ -447,7 +447,7 @@
                                          <path d="M374 111V70H336V85" stroke="" data-rect="25" data-path="C6">
                                          </path>
                                          <rect x="329.055" y="79.0947" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C6"></rect>
+                                             fill="#D1D5DB" data-rect="C6"></rect>
                                          <text x="335.547" y="91.6736" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C6</text>
                                      </g>
@@ -461,7 +461,7 @@
                                              data-rect="80" data-path="C70">
                                          </path>
                                          <rect x="1094.33" y="99.3975" width="12.9836" height="25.1557"
-                                             transform="rotate(90.0373 1094.33 99.3975)" fill="#A8CB8D"
+                                             transform="rotate(90.0373 1094.33 99.3975)" fill="#D1D5DB"
                                              data-rect="C70">
                                          </rect>
                                          <text x="1082.33" y="105.3975" text-anchor="middle"
@@ -473,7 +473,7 @@
                                          <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1079 123" stroke=""
                                              data-rect="81" data-path="C71"></path>
                                          <rect x="1094.31" y="115.627" width="12.9836" height="25.1557"
-                                             transform="rotate(90.0373 1094.31 115.627)" fill="#A8CB8D"
+                                             transform="rotate(90.0373 1094.31 115.627)" fill="#D1D5DB"
                                              data-rect="C71">
                                          </rect>
                                          <text x="1082.31" y="121.627" text-anchor="middle" dominant-baseline="middle"
@@ -485,7 +485,7 @@
                                          <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1077.5 139.5" stroke=""
                                              data-rect="82" data-path="C72"></path>
                                          <rect x="1094.3" y="131.856" width="12.9836" height="25.1557"
-                                             transform="rotate(90.0373 1094.3 131.856)" fill="#A8CB8D"
+                                             transform="rotate(90.0373 1094.3 131.856)" fill="#D1D5DB"
                                              data-rect="C72">
                                          </rect>
                                          <text x="1082.3" y="137.856" text-anchor="middle" dominant-baseline="middle"
@@ -497,7 +497,7 @@
                                          <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1076.5 155" stroke=""
                                              data-rect="83" data-path="C73"></path>
                                          <rect x="1094.29" y="148.086" width="12.9836" height="25.1557"
-                                             transform="rotate(90.0373 1094.29 148.086)" fill="#A8CB8D"
+                                             transform="rotate(90.0373 1094.29 148.086)" fill="#D1D5DB"
                                              data-rect="C73">
                                          </rect>
                                          <text x="1082.29" y="154.086" text-anchor="middle" dominant-baseline="middle"
@@ -509,7 +509,7 @@
                                          <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1074 172" stroke=""
                                              data-rect="84" data-path="C74"></path>
                                          <rect x="1094.28" y="164.315" width="12.9836" height="25.1557"
-                                             transform="rotate(90.0373 1094.28 164.315)" fill="#A8CB8D"
+                                             transform="rotate(90.0373 1094.28 164.315)" fill="#D1D5DB"
                                              data-rect="C74">
                                          </rect>
                                          <text x="1082.28" y="170.315" text-anchor="middle" dominant-baseline="middle"
@@ -522,7 +522,7 @@
                                              stroke="" data-rect="85" data-path="C75">
                                          </path>
                                          <rect x="1094.33" y="187.037" width="12.9836" height="25.1557"
-                                             transform="rotate(90.0373 1094.33 187.037)" fill="#A8CB8D"
+                                             transform="rotate(90.0373 1094.33 187.037)" fill="#D1D5DB"
                                              data-rect="C75">
                                          </rect>
                                          <text x="1082.33" y="193.037" text-anchor="middle" dominant-baseline="middle"
@@ -534,7 +534,7 @@
                                          <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1016.5 195L1076.5 211"
                                              stroke="" data-rect="86" data-path="C76"></path>
                                          <rect x="1094.31" y="203.267" width="12.9836" height="25.1557"
-                                             transform="rotate(90.0373 1094.31 203.267)" fill="#A8CB8D"
+                                             transform="rotate(90.0373 1094.31 203.267)" fill="#D1D5DB"
                                              data-rect="C76">
                                          </rect>
                                          <text x="1082.31" y="209.267" text-anchor="middle" dominant-baseline="middle"
@@ -547,7 +547,7 @@
                                              stroke="" data-rect="87" data-path="C77">
                                          </path>
                                          <rect x="1094.3" y="219.496" width="12.9836" height="25.1557"
-                                             transform="rotate(90.0373 1094.3 219.496)" fill="#A8CB8D"
+                                             transform="rotate(90.0373 1094.3 219.496)" fill="#D1D5DB"
                                              data-rect="C77">
                                          </rect>
                                          <text x="1082.3" y="225.496" text-anchor="middle" dominant-baseline="middle"
@@ -560,7 +560,7 @@
                                              stroke="" data-rect="88" data-path="C78">
                                          </path>
                                          <rect x="1094.29" y="235.726" width="12.9836" height="25.1557"
-                                             transform="rotate(90.0373 1094.29 235.726)" fill="#A8CB8D"
+                                             transform="rotate(90.0373 1094.29 235.726)" fill="#D1D5DB"
                                              data-rect="C78">
                                          </rect>
                                          <text x="1082.29" y="241.726" text-anchor="middle" dominant-baseline="middle"
@@ -573,7 +573,7 @@
                                              stroke="" data-rect="89" data-path="C79">
                                          </path>
                                          <rect x="1094.28" y="251.955" width="12.9836" height="25.1557"
-                                             transform="rotate(90.0373 1094.28 251.955)" fill="#A8CB8D"
+                                             transform="rotate(90.0373 1094.28 251.955)" fill="#D1D5DB"
                                              data-rect="C79">
                                          </rect>
                                          <text x="1082.28" y="257.955" text-anchor="middle" dominant-baseline="middle"
@@ -586,7 +586,7 @@
                                          <path d="M375 111.5V78H677V91H819L879 111.5H901V83" stroke=""
                                              data-rect="36" data-path="C60">
                                          </path>
-                                         <rect x="893.836" y="70.168" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="893.836" y="70.168" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C60"></rect>
                                          <text x="900.328" y="82.745" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C60</text>
@@ -597,7 +597,7 @@
                                          <path d="M375 111.5V78H677V91H819L879 111.5H918V87.5" stroke=""
                                              data-rect="37" data-path="C61">
                                          </path>
-                                         <rect x="910.062" y="70.168" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="910.062" y="70.168" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C61"></rect>
                                          <text x="916.554" y="82.745" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C61</text>
@@ -608,7 +608,7 @@
                                          <path d="M375 111.5V78H677V91H819L879 111.5H933.5V88.5" stroke=""
                                              data-rect="38" data-path="C62">
                                          </path>
-                                         <rect x="926.297" y="70.168" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="926.297" y="70.168" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C62"></rect>
                                          <text x="932.789" y="82.745" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C62</text>
@@ -619,7 +619,7 @@
                                          <path d="M375 111.5V78H677V91H819L879 111.5H949V91" stroke=""
                                              data-rect="39" data-path="C63">
                                          </path>
-                                         <rect x="942.523" y="70.168" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="942.523" y="70.168" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C63"></rect>
                                          <text x="949.015" y="82.745" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C63</text>
@@ -630,7 +630,7 @@
                                          <path d="M375 111.5V78H677V91H819L879 111.5H966V91" stroke=""
                                              data-rect="40" data-path="C64">
                                          </path>
-                                         <rect x="958.758" y="70.168" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="958.758" y="70.168" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C64"></rect>
                                          <text x="965.250" y="82.745" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C64</text>
@@ -641,7 +641,7 @@
                                          <path d="M374.5 111.5V78.5H676.5V92H821L954.5 178L946 190.5" stroke=""
                                              data-rect="46" data-path="C65"></path>
                                          <rect x="943" y="182" width="12.9836" height="25.1557"
-                                             transform="rotate(33.8077 943 182)" fill="#A8CB8D" data-rect="C65">
+                                             transform="rotate(33.8077 943 182)" fill="#D1D5DB" data-rect="C65">
                                          </rect>
                                          <text x="944.492" y="198.578" transform="rotate(33.8077 949.492 194.578)"
                                              text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -653,7 +653,7 @@
                                          <path d="M374.5 111.5V78.5H676.5V92H821L841.5 106L831 122.5" stroke=""
                                              data-rect="42" data-path="C56"></path>
                                          <rect x="828" y="114.836" width="12.9836" height="25.1557"
-                                             transform="rotate(30.1533 828 114.836)" fill="#A8CB8D" data-rect="C56">
+                                             transform="rotate(30.1533 828 114.836)" fill="#D1D5DB" data-rect="C56">
                                          </rect>
                                          <text x="829.492" y="131.414" transform="rotate(30.1533 834.492 127.414)"
                                              text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -666,7 +666,7 @@
                                              stroke="" data-rect="43" data-path="C57">
                                          </path>
                                          <rect x="842.031" y="122.988" width="12.9836" height="25.1557"
-                                             transform="rotate(30.1533 842.031 122.988)" fill="#A8CB8D"
+                                             transform="rotate(30.1533 842.031 122.988)" fill="#D1D5DB"
                                              data-rect="C57">
                                          </rect>
                                          <text x="843.523" y="139.566" transform="rotate(30.1533 848.523 135.566)"
@@ -679,7 +679,7 @@
                                          <path d="M374.5 111.5V78.5H676.5V92H821L870.5 120L859.5 138.5" stroke=""
                                              data-rect="44" data-path="C58"></path>
                                          <rect x="856.07" y="131.141" width="12.9836" height="25.1557"
-                                             transform="rotate(30.1533 856.07 131.141)" fill="#A8CB8D"
+                                             transform="rotate(30.1533 856.07 131.141)" fill="#D1D5DB"
                                              data-rect="C58">
                                          </rect>
                                          <text x="857.562" y="147.719" transform="rotate(30.1533 862.562 143.719)"
@@ -692,7 +692,7 @@
                                          <path d="M374.5 111.5V78.5H676.5V92H821L884.5 127.5L872 148.5" stroke=""
                                              data-rect="45" data-path="C59"></path>
                                          <rect x="870.102" y="139.293" width="12.9836" height="25.1557"
-                                             transform="rotate(30.1533 870.102 139.293)" fill="#A8CB8D"
+                                             transform="rotate(30.1533 870.102 139.293)" fill="#D1D5DB"
                                              data-rect="C59">
                                          </rect>
                                          <text x="871.594" y="155.871" transform="rotate(30.1533 876.594 151.871)"
@@ -705,7 +705,7 @@
                                          <path d="M374.5 111.5V78.5H676.5V92H821L828.5 96L817 114.5" stroke=""
                                              data-rect="41" data-path="C55"></path>
                                          <rect x="813.969" y="106.683" width="12.9836" height="25.1557"
-                                             transform="rotate(30.1533 813.969 106.683)" fill="#A8CB8D"
+                                             transform="rotate(30.1533 813.969 106.683)" fill="#D1D5DB"
                                              data-rect="C55">
                                          </rect>
                                          <text x="815.460" y="123.261" transform="rotate(30.1533 820.460 119.261)"
@@ -719,7 +719,7 @@
                                          <path d="M374.5 111.5V78.5H676.5V92H821L968.5 187.5L959 200" stroke=""
                                              data-rect="47" data-path="C66"></path>
                                          <rect x="956.484" y="191.031" width="12.9836" height="25.1557"
-                                             transform="rotate(33.8077 956.484 191.031)" fill="#A8CB8D"
+                                             transform="rotate(33.8077 956.484 191.031)" fill="#D1D5DB"
                                              data-rect="C66">
                                          </rect>
                                          <text x="957.976" y="207.609" transform="rotate(33.8077 962.976 203.609)"
@@ -733,7 +733,7 @@
                                          <path d="M374.5 111.5V78.5H676.5V92H821L980.5 196.5L973 207.5" stroke=""
                                              data-rect="48" data-path="C67"></path>
                                          <rect x="969.969" y="200.061" width="12.9836" height="25.1557"
-                                             transform="rotate(33.8077 969.969 200.061)" fill="#A8CB8D"
+                                             transform="rotate(33.8077 969.969 200.061)" fill="#D1D5DB"
                                              data-rect="C67">
                                          </rect>
                                          <text x="971.460" y="216.639" transform="rotate(33.8077 976.460 212.639)"
@@ -747,7 +747,7 @@
                                          <path d="M374.5 111.5V78.5H676.5V92H821L994 206L986.5 216" stroke=""
                                              data-rect="49" data-path="C68"></path>
                                          <rect x="983.453" y="209.091" width="12.9836" height="25.1557"
-                                             transform="rotate(33.8077 983.453 209.091)" fill="#A8CB8D"
+                                             transform="rotate(33.8077 983.453 209.091)" fill="#D1D5DB"
                                              data-rect="C68">
                                          </rect>
                                          <text x="984.945" y="225.669" transform="rotate(33.8077 989.945 221.669)"
@@ -761,7 +761,7 @@
                                          <path d="M374.5 111.5V78.5H676.5V92H821L1008.5 216L1001 224.5" stroke=""
                                              data-rect="50" data-path="C69"></path>
                                          <rect x="996.938" y="218.121" width="12.9836" height="25.1557"
-                                             transform="rotate(33.8077 996.938 218.121)" fill="#A8CB8D"
+                                             transform="rotate(33.8077 996.938 218.121)" fill="#D1D5DB"
                                              data-rect="C69">
                                          </rect>
                                          <text x="998.429" y="234.699" transform="rotate(33.8077 1003.429 230.699)"
@@ -774,7 +774,7 @@
                                          <path d="M374.5 111V79.1684H611V91.5H730.5V63" stroke="" data-rect="51"
                                              data-path="C50">
                                          </path>
-                                         <rect x="723.43" y="52.3154" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="723.43" y="52.3154" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C50"></rect>
                                          <text x="729.92" y="64.89" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C50</text>
@@ -786,7 +786,7 @@
                                              data-rect="52" data-path="C51">
                                          </path>
                                          <rect x="739.656" y="52.3154" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C51"></rect>
+                                             fill="#D1D5DB" data-rect="C51"></rect>
                                          <text x="746.15" y="64.89" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C51</text>
                                      </g>
@@ -797,7 +797,7 @@
                                              data-rect="53" data-path="C52">
                                          </path>
                                          <rect x="755.891" y="52.3154" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C52"></rect>
+                                             fill="#D1D5DB" data-rect="C52"></rect>
                                          <text x="762.38" y="64.89" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C52</text>
                                      </g>
@@ -808,7 +808,7 @@
                                              data-rect="54" data-path="C53">
                                          </path>
                                          <rect x="772.117" y="52.3154" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C53"></rect>
+                                             fill="#D1D5DB" data-rect="C53"></rect>
                                          <text x="778.61" y="64.89" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C53</text>
                                      </g>
@@ -819,7 +819,7 @@
                                              data-rect="55" data-path="C54">
                                          </path>
                                          <rect x="788.344" y="52.3154" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C54"></rect>
+                                             fill="#D1D5DB" data-rect="C54"></rect>
                                          <text x="794.85" y="64.89" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C54</text>
                                      </g>
@@ -834,7 +834,7 @@
                                              data-path="C14">
                                          </path>
                                          <rect x="264.133" y="32.0283" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C14"></rect>
+                                             fill="#D1D5DB" data-rect="C14"></rect>
                                          <text x="270.625" y="44.606" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C14</text>
                                      </g>
@@ -845,7 +845,7 @@
                                              data-path="C13">
                                          </path>
                                          <rect x="280.359" y="32.0283" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C13"></rect>
+                                             fill="#D1D5DB" data-rect="C13"></rect>
                                          <text x="286.851" y="44.606" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C13</text>
                                      </g>
@@ -856,7 +856,7 @@
                                              data-path="C11">
                                          </path>
                                          <rect x="296.594" y="32.0283" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C11"></rect>
+                                             fill="#D1D5DB" data-rect="C11"></rect>
                                          <text x="303.086" y="44.606" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C11</text>
                                      </g>
@@ -866,7 +866,7 @@
                                          <path d="M374 111V69.6612H319V50" stroke="" data-rect="59"
                                              data-path="C9">
                                          </path>
-                                         <rect x="312.82" y="32.0283" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="312.82" y="32.0283" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C9"></rect>
                                          <text x="319.312" y="44.606" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C9</text>
@@ -881,7 +881,7 @@
                                              data-path="C7">
                                          </path>
                                          <rect x="329.055" y="32.0283" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C7"></rect>
+                                             fill="#D1D5DB" data-rect="C7"></rect>
                                          <text x="335.547" y="44.606" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C7</text>
                                      </g>
@@ -890,8 +890,8 @@
                                      <g class="clickable">
                                          <path d="M374 110.5V45.5" stroke="" data-rect="61" data-path="C1">
                                          </path>
-                                         <rect x="367.195" y="27.1602" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C1"></rect>
+                                         <rect id="C1" x="367.195" y="27.1602" width="12.9836" height="25.1557"
+                                             fill="#D1D5DB" data-rect="C1"></rect>
                                          <text x="373.687" y="39.738" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C1</text>
                                      </g>
@@ -900,8 +900,8 @@
                                      <g class="clickable">
                                          <path d="M374 110.5L391 45" stroke="" data-rect="62" data-path="C2">
                                          </path>
-                                         <rect x="383.422" y="27.1602" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C2"></rect>
+                                         <rect id="C2" x="383.422" y="27.1602" width="12.9836" height="25.1557"
+                                             fill="#D1D5DB" data-rect="C2"></rect>
                                          <text x="389.914" y="39.738" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C2</text>
                                      </g>
@@ -911,7 +911,7 @@
                                          <path d="M374 110.5L408 47" stroke="" data-rect="63" data-path="C3">
                                          </path>
                                          <rect x="399.656" y="27.1602" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C3"></rect>
+                                             fill="#D1D5DB" data-rect="C3"></rect>
                                          <text x="406.148" y="39.738" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C3</text>
                                      </g>
@@ -922,7 +922,7 @@
                                              data-path="C4">
                                          </path>
                                          <rect x="415.883" y="27.1602" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C4"></rect>
+                                             fill="#D1D5DB" data-rect="C4"></rect>
                                          <text x="422.375" y="39.738" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C4</text>
                                      </g>
@@ -933,7 +933,7 @@
                                              data-path="C5">
                                          </path>
                                          <rect x="432.117" y="27.1602" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C5"></rect>
+                                             fill="#D1D5DB" data-rect="C5"></rect>
                                          <text x="438.609" y="39.738" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C5</text>
                                      </g>
@@ -942,7 +942,7 @@
                                          <path d="M373.998 110.503L374 78.9992L528.998 79.0026L528.998 60.0025"
                                              stroke="" data-rect="66" data-path="C26"></path>
                                          <rect x="522.188" y="45.0127" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C26"></rect>
+                                             fill="#D1D5DB" data-rect="C26"></rect>
                                          <text x="528.68" y="57.59" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C26</text>
                                      </g>
@@ -953,7 +953,7 @@
                                              data-path="C28">
                                          </path>
                                          <rect x="538.414" y="45.0127" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C28"></rect>
+                                             fill="#D1D5DB" data-rect="C28"></rect>
                                          <text x="544.91" y="57.59" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C28</text>
                                      </g>
@@ -964,7 +964,7 @@
                                              data-path="C30">
                                          </path>
                                          <rect x="554.648" y="45.0127" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C30"></rect>
+                                             fill="#D1D5DB" data-rect="C30"></rect>
                                          <text x="561.14" y="57.59" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C30</text>
                                      </g>
@@ -975,7 +975,7 @@
                                              data-path="C32">
                                          </path>
                                          <rect x="570.875" y="45.0127" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C32"></rect>
+                                             fill="#D1D5DB" data-rect="C32"></rect>
                                          <text x="577.36" y="57.59" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C32</text>
                                      </g>
@@ -986,7 +986,7 @@
                                              data-path="C34">
                                          </path>
                                          <rect x="587.102" y="45.0127" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C34"></rect>
+                                             fill="#D1D5DB" data-rect="C34"></rect>
                                          <text x="593.59" y="57.59" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C34</text>
                                      </g>
@@ -997,7 +997,7 @@
                                              stroke="" data-rect="71" data-path="C27">
                                          </path>
                                          <rect x="522.188" y="86.3975" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C27"></rect>
+                                             fill="#D1D5DB" data-rect="C27"></rect>
                                          <text x="528.68" y="98.97" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C27</text>
                                      </g>
@@ -1009,7 +1009,7 @@
                                              data-path="C29">
                                          </path>
                                          <rect x="538.414" y="86.3975" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C29"></rect>
+                                             fill="#D1D5DB" data-rect="C29"></rect>
                                          <text x="544.91" y="98.97" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C29</text>
                                      </g>
@@ -1020,7 +1020,7 @@
                                              data-path="C31">
                                          </path>
                                          <rect x="554.648" y="86.3975" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C31"></rect>
+                                             fill="#D1D5DB" data-rect="C31"></rect>
                                          <text x="561.14" y="98.97" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C31</text>
                                      </g>
@@ -1031,7 +1031,7 @@
                                              data-path="C33">
                                          </path>
                                          <rect x="570.875" y="86.3975" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C33"></rect>
+                                             fill="#D1D5DB" data-rect="C33"></rect>
                                          <text x="577.36" y="98.97" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C33</text>
                                      </g>
@@ -1042,7 +1042,7 @@
                                              data-path="C35">
                                          </path>
                                          <rect x="587.109" y="86.3975" width="12.9836" height="25.1557"
-                                             fill="#A8CB8D" data-rect="C35"></rect>
+                                             fill="#D1D5DB" data-rect="C35"></rect>
                                          <text x="593.60" y="98.97" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C35</text>
                                      </g>
@@ -1051,7 +1051,7 @@
                                      <g class="clickable">
                                          <path d="M374 111V69.6612L225 65.5L61.5 56.5L7.5 40.5V17.5" stroke=""
                                              data-rect="76" data-path="C49"></path>
-                                         <rect width="12.9836" height="25.1557" fill="#A8CB8D" data-rect="C49">
+                                         <rect width="12.9836" height="25.1557" fill="#D1D5DB" data-rect="C49">
                                          </rect>
                                          <text x="6.49" y="12.58" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">C49</text>
@@ -1062,7 +1062,7 @@
                                          <path d="M374 111V69.6612L225 65.5L61.5 56.5L21 44V21" stroke=""
                                              data-rect="77" data-path="C48">
                                          </path>
-                                         <rect x="15.9844" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="15.9844" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C48">
                                          </rect>
                                          <text x="22.48" y="12.58" text-anchor="middle" dominant-baseline="middle"
@@ -1074,7 +1074,7 @@
                                          <path d="M374 111V69.6612L225 65.5L38.5 56.5V20.5" stroke=""
                                              data-rect="78" data-path="C47">
                                          </path>
-                                         <rect x="31.9688" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="31.9688" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C47">
                                          </rect>
                                          <text x="38.46" y="12.58" text-anchor="middle" dominant-baseline="middle"
@@ -1086,7 +1086,7 @@
                                          <path d="M374 111V69.6612L225 65.5L54 57.5V21" stroke=""
                                              data-rect="79" data-path="C46">
                                          </path>
-                                         <rect x="47.9531" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                         <rect x="47.9531" width="12.9836" height="25.1557" fill="#D1D5DB"
                                              data-rect="C46">
                                          </rect>
                                          <text x="54.44" y="12.58" text-anchor="middle" dominant-baseline="middle"
@@ -1130,7 +1130,7 @@
                                          </path>
                                          <rect id="A1" width="20.6417" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 191.25 174.056)"
-                                             fill="#A8CC8D" data-rect="A40">
+                                             fill="#D1D5DB" data-rect="A40">
                                          </rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 191.25 174.056)"
                                              x="10.3208" y="4.2243" text-anchor="middle" dominant-baseline="middle"
@@ -1145,7 +1145,7 @@
                                          </path>
                                          <rect id="A2" width="20.6417" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 203.695 174.056)"
-                                             fill="#A8CC8D" data-rect="A39">
+                                             fill="#D1D5DB" data-rect="A39">
                                          </rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 203.695 174.056)"
                                              x="10.3208" y="4.2243" text-anchor="middle" dominant-baseline="middle"
@@ -1158,7 +1158,7 @@
                                          </path>
                                          <rect width="20.6417" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 216.141 174.056)"
-                                             fill="#A8CC8D" data-rect="A38">
+                                             fill="#D1D5DB" data-rect="A38">
                                          </rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 216.141 174.056)"
                                              x="10.3208" y="4.2243" text-anchor="middle" dominant-baseline="middle"
@@ -1171,7 +1171,7 @@
                                          </path>
                                          <rect width="20.6417" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 228.578 174.056)"
-                                             fill="#A8CC8D" data-rect="A37"></rect>
+                                             fill="#D1D5DB" data-rect="A37"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 228.578 174.056)"
                                              x="10.3208" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A37</text>
@@ -1183,7 +1183,7 @@
                                          </path>
                                          <rect width="20.6417" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 241.023 174.056)"
-                                             fill="#A8CC8D" data-rect="A36"></rect>
+                                             fill="#D1D5DB" data-rect="A36"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 241.023 174.056)"
                                              x="10.3208" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A36</text>
@@ -1195,7 +1195,7 @@
                                          </path>
                                          <rect width="20.6417" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 253.461 174.056)"
-                                             fill="#A8CC8D" data-rect="A35"></rect>
+                                             fill="#D1D5DB" data-rect="A35"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 253.461 174.056)"
                                              x="10.3208" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A35</text>
@@ -1207,7 +1207,7 @@
                                          </path>
                                          <rect width="20.6417" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 265.906 174.056)"
-                                             fill="#A8CC8D" data-rect="A34"></rect>
+                                             fill="#D1D5DB" data-rect="A34"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 265.906 174.056)"
                                              x="10.3208" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A34</text>
@@ -1219,7 +1219,7 @@
                                          </path>
                                          <rect width="20.6417" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 278.352 174.056)"
-                                             fill="#A8CC8D" data-rect="A27"></rect>
+                                             fill="#D1D5DB" data-rect="A27"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 278.352 174.056)"
                                              x="10.3208" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A27</text>
@@ -1234,7 +1234,7 @@
                                          </path>
                                          <rect width="15.9605" height="8.57558"
                                              transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 59.6094 420.622)"
-                                             fill="#A8CC8D" data-rect="A33"></rect>
+                                             fill="#D1D5DB" data-rect="A33"></rect>
                                          <text
                                              transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 59.6094 420.622)"
                                              x="7.9803" y="4.2878" text-anchor="middle" dominant-baseline="middle"
@@ -1247,7 +1247,7 @@
                                          </path>
                                          <rect width="15.9605" height="8.57558"
                                              transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 59.6094 407.653)"
-                                             fill="#A8CC8D" data-rect="A32"></rect>
+                                             fill="#D1D5DB" data-rect="A32"></rect>
                                          <text
                                              transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 59.6094 407.653)"
                                              x="7.9803" y="4.2878" text-anchor="middle" dominant-baseline="middle"
@@ -1260,7 +1260,7 @@
                                          </path>
                                          <rect width="15.9605" height="8.57558"
                                              transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 59.6094 394.683)"
-                                             fill="#A8CC8D" data-rect="A31"></rect>
+                                             fill="#D1D5DB" data-rect="A31"></rect>
                                          <text
                                              transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 59.6094 394.683)"
                                              x="7.9803" y="4.2878" text-anchor="middle" dominant-baseline="middle"
@@ -1274,7 +1274,7 @@
                                          </path>
                                          <rect width="15.9939" height="8.55811"
                                              transform="matrix(0.999168 0.0407728 -0.052985 0.998595 11.3047 404.367)"
-                                             fill="#A8CC8D" data-rect="A41"></rect>
+                                             fill="#D1D5DB" data-rect="A41"></rect>
                                          <text
                                              transform="matrix(0.999168 0.0407728 -0.052985 0.998595 11.3047 404.367)"
                                              x="7.9970" y="4.2791" text-anchor="middle" dominant-baseline="middle"
@@ -1287,7 +1287,7 @@
                                          </path>
                                          <rect width="15.9939" height="8.55811"
                                              transform="matrix(0.999168 0.0407728 -0.052985 0.998595 11.1797 414.831)"
-                                             fill="#A8CC8D" data-rect="A42"></rect>
+                                             fill="#D1D5DB" data-rect="A42"></rect>
                                          <text
                                              transform="matrix(0.999168 0.0407728 -0.052985 0.998595 11.1797 414.831)"
                                              x="7.9970" y="4.2791" text-anchor="middle" dominant-baseline="middle"
@@ -1300,7 +1300,7 @@
                                          </path>
                                          <rect width="15.9939" height="8.55811"
                                              transform="matrix(0.999168 0.0407728 -0.052985 0.998595 11.0547 425.296)"
-                                             fill="#A8CC8D" data-rect="A43"></rect>
+                                             fill="#D1D5DB" data-rect="A43"></rect>
                                          <text
                                              transform="matrix(0.999168 0.0407728 -0.052985 0.998595 11.0547 425.296)"
                                              x="7.9970" y="4.2791" text-anchor="middle" dominant-baseline="middle"
@@ -1315,7 +1315,7 @@
                                          </path>
                                          <rect width="15.9631" height="8.57423"
                                              transform="matrix(0.999693 0.0247774 -0.0321019 0.999485 28.0938 326.399)"
-                                             fill="#A8CC8D" data-rect="A30"></rect>
+                                             fill="#D1D5DB" data-rect="A30"></rect>
                                          <text
                                              transform="matrix(0.999693 0.0247774 -0.0321019 0.999485 28.0938 326.399)"
                                              x="7.9816" y="4.2871" text-anchor="middle" dominant-baseline="middle"
@@ -1328,7 +1328,7 @@
                                          </path>
                                          <rect width="15.9631" height="8.57423"
                                              transform="matrix(0.999693 0.0247774 -0.0321019 0.999485 28.1875 336.887)"
-                                             fill="#A8CC8D" data-rect="A29"></rect>
+                                             fill="#D1D5DB" data-rect="A29"></rect>
                                          <text
                                              transform="matrix(0.999693 0.0247774 -0.0321019 0.999485 28.1875 336.887)"
                                              x="7.9816" y="4.2871" text-anchor="middle" dominant-baseline="middle"
@@ -1341,7 +1341,7 @@
                                          </path>
                                          <rect width="15.9631" height="8.57423"
                                              transform="matrix(0.999693 0.0247774 -0.0321019 0.999485 28.2734 347.373)"
-                                             fill="#A8CC8D" data-rect="A28"></rect>
+                                             fill="#D1D5DB" data-rect="A28"></rect>
                                          <text
                                              transform="matrix(0.999693 0.0247774 -0.0321019 0.999485 28.2734 347.373)"
                                              x="7.9816" y="4.2871" text-anchor="middle" dominant-baseline="middle"
@@ -1355,7 +1355,7 @@
                                          </path>
                                          <rect width="20.7009" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 154.156 76.3215)"
-                                             fill="#A8CC8D" data-rect="A60"></rect>
+                                             fill="#D1D5DB" data-rect="A60"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 154.156 76.3215)"
                                              x="10.3504" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A60</text>
@@ -1367,7 +1367,7 @@
                                          </path>
                                          <rect width="20.7009" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 167.93 76.3215)"
-                                             fill="#A8CC8D" data-rect="A59">
+                                             fill="#D1D5DB" data-rect="A59">
                                          </rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 167.93 76.3215)"
                                              x="10.3504" y="4.2243" text-anchor="middle" dominant-baseline="middle"
@@ -1380,7 +1380,7 @@
                                          </path>
                                          <rect width="20.7009" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 181.695 76.3215)"
-                                             fill="#A8CC8D" data-rect="A58"></rect>
+                                             fill="#D1D5DB" data-rect="A58"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 181.695 76.3215)"
                                              x="10.3504" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A58</text>
@@ -1392,7 +1392,7 @@
                                          </path>
                                          <rect width="20.7009" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 195.461 76.3215)"
-                                             fill="#A8CC8D" data-rect="A56"></rect>
+                                             fill="#D1D5DB" data-rect="A56"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 195.461 76.3215)"
                                              x="10.3504" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A56</text>
@@ -1404,7 +1404,7 @@
                                          </path>
                                          <rect width="20.7009" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 209.227 76.3215)"
-                                             fill="#A8CC8D" data-rect="A55"></rect>
+                                             fill="#D1D5DB" data-rect="A55"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 209.227 76.3215)"
                                              x="10.3504" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A55</text>
@@ -1418,7 +1418,7 @@
                                          </path>
                                          <rect width="20.7009" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 191.25 130.283)"
-                                             fill="#A8CC8D" data-rect="A57">
+                                             fill="#D1D5DB" data-rect="A57">
                                          </rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 191.25 130.283)"
                                              x="10.3504" y="4.2243" text-anchor="middle" dominant-baseline="middle"
@@ -1431,7 +1431,7 @@
                                          </path>
                                          <rect width="20.7009" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 203.695 130.283)"
-                                             fill="#A8CC8D" data-rect="A54"></rect>
+                                             fill="#D1D5DB" data-rect="A54"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 203.695 130.283)"
                                              x="10.3504" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A54</text>
@@ -1443,7 +1443,7 @@
                                          </path>
                                          <rect width="20.7009" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 216.141 130.283)"
-                                             fill="#A8CC8D" data-rect="A49"></rect>
+                                             fill="#D1D5DB" data-rect="A49"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 216.141 130.283)"
                                              x="10.3504" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A49</text>
@@ -1455,7 +1455,7 @@
                                          </path>
                                          <rect width="20.7009" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 228.578 130.283)"
-                                             fill="#A8CC8D" data-rect="A48"></rect>
+                                             fill="#D1D5DB" data-rect="A48"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 228.578 130.283)"
                                              x="10.3504" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A48</text>
@@ -1467,7 +1467,7 @@
                                          </path>
                                          <rect width="20.7009" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 241.023 130.283)"
-                                             fill="#A8CC8D" data-rect="A47"></rect>
+                                             fill="#D1D5DB" data-rect="A47"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 241.023 130.283)"
                                              x="10.3504" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A47</text>
@@ -1479,7 +1479,7 @@
                                          </path>
                                          <rect width="20.7009" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 253.461 130.283)"
-                                             fill="#A8CC8D" data-rect="A46"></rect>
+                                             fill="#D1D5DB" data-rect="A46"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 253.461 130.283)"
                                              x="10.3504" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A46</text>
@@ -1491,7 +1491,7 @@
                                          </path>
                                          <rect width="20.7009" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 265.906 130.283)"
-                                             fill="#A8CC8D" data-rect="A45"></rect>
+                                             fill="#D1D5DB" data-rect="A45"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 265.906 130.283)"
                                              x="10.3504" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A45</text>
@@ -1503,7 +1503,7 @@
                                          </path>
                                          <rect width="20.7009" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 278.352 130.283)"
-                                             fill="#A8CC8D" data-rect="A44"></rect>
+                                             fill="#D1D5DB" data-rect="A44"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 278.352 130.283)"
                                              x="10.3504" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A44</text>
@@ -1517,7 +1517,7 @@
                                          </path>
                                          <rect width="17.7818" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 261.461 44.4485)"
-                                             fill="#A8CC8D" data-rect="A53"></rect>
+                                             fill="#D1D5DB" data-rect="A53"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 261.461 44.4485)"
                                              x="8.8909" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A53</text>
@@ -1529,7 +1529,7 @@
                                          </path>
                                          <rect width="17.7818" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 272.578 44.4485)"
-                                             fill="#A8CC8D" data-rect="A52"></rect>
+                                             fill="#D1D5DB" data-rect="A52"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 272.578 44.4485)"
                                              x="8.8909" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A52</text>
@@ -1541,7 +1541,7 @@
                                          </path>
                                          <rect width="17.7818" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 283.695 44.4485)"
-                                             fill="#A8CC8D" data-rect="A51"></rect>
+                                             fill="#D1D5DB" data-rect="A51"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 283.695 44.4485)"
                                              x="8.8909" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A51</text>
@@ -1553,7 +1553,7 @@
                                          </path>
                                          <rect width="17.7818" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 294.812 44.4485)"
-                                             fill="#A8CC8D" data-rect="A50"></rect>
+                                             fill="#D1D5DB" data-rect="A50"></rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 294.812 44.4485)"
                                              x="8.8909" y="4.2243" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">A50</text>
@@ -1567,7 +1567,7 @@
                                          </path>
                                          <rect width="19.0592" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 227.016 232.6)"
-                                             fill="#A8CC8D" data-rect="A26">
+                                             fill="#D1D5DB" data-rect="A26">
                                          </rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 227.016 232.6)"
                                              x="9.5296" y="4.2243" text-anchor="middle" dominant-baseline="middle"
@@ -1580,7 +1580,7 @@
                                          </path>
                                          <rect width="19.0592" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 239.461 232.6)"
-                                             fill="#A8CC8D" data-rect="A25">
+                                             fill="#D1D5DB" data-rect="A25">
                                          </rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 239.461 232.6)"
                                              x="9.5296" y="4.2243" text-anchor="middle" dominant-baseline="middle"
@@ -1593,7 +1593,7 @@
                                          </path>
                                          <rect width="19.0592" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 251.898 232.6)"
-                                             fill="#A8CC8D" data-rect="A24">
+                                             fill="#D1D5DB" data-rect="A24">
                                          </rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 251.898 232.6)"
                                              x="9.5296" y="4.2243" text-anchor="middle" dominant-baseline="middle"
@@ -1606,7 +1606,7 @@
                                          </path>
                                          <rect width="19.0592" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 264.344 232.6)"
-                                             fill="#A8CC8D" data-rect="A23">
+                                             fill="#D1D5DB" data-rect="A23">
                                          </rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 264.344 232.6)"
                                              x="9.5296" y="4.2243" text-anchor="middle" dominant-baseline="middle"
@@ -1619,7 +1619,7 @@
                                          </path>
                                          <rect width="19.0592" height="8.44863"
                                              transform="matrix(0.000960682 1 -0.999975 0.00705118 276.781 232.6)"
-                                             fill="#A8CC8D" data-rect="A22">
+                                             fill="#D1D5DB" data-rect="A22">
                                          </rect>
                                          <text transform="matrix(0.000960682 1 -0.999975 0.00705118 276.781 232.6)"
                                              x="9.5296" y="4.2243" text-anchor="middle" dominant-baseline="middle"
@@ -1633,7 +1633,7 @@
                                          </path>
                                          <rect width="19.0592" height="8.44863"
                                              transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.281 273.366)"
-                                             fill="#A8CC8D" data-rect="A8"></rect>
+                                             fill="#D1D5DB" data-rect="A8"></rect>
                                          <text
                                              transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.281 273.366)"
                                              x="9.5296" y="4.2243" text-anchor="middle" dominant-baseline="middle"
@@ -1646,7 +1646,7 @@
                                          </path>
                                          <rect width="19.0592" height="8.44863"
                                              transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.328 285.807)"
-                                             fill="#A8CC8D" data-rect="A7"></rect>
+                                             fill="#D1D5DB" data-rect="A7"></rect>
                                          <text
                                              transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.328 285.807)"
                                              x="9.5296" y="4.2243" text-anchor="middle" dominant-baseline="middle"
@@ -1659,7 +1659,7 @@
                                          </path>
                                          <rect width="19.0592" height="8.44863"
                                              transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.375 298.247)"
-                                             fill="#A8CC8D" data-rect="A6"></rect>
+                                             fill="#D1D5DB" data-rect="A6"></rect>
                                          <text
                                              transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.375 298.247)"
                                              x="9.5296" y="4.2243" text-anchor="middle" dominant-baseline="middle"
@@ -1672,7 +1672,7 @@
                                          </path>
                                          <rect width="19.0592" height="8.44863"
                                              transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.422 310.688)"
-                                             fill="#A8CC8D" data-rect="A5"></rect>
+                                             fill="#D1D5DB" data-rect="A5"></rect>
                                          <text
                                              transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.422 310.688)"
                                              x="9.5296" y="4.2243" text-anchor="middle" dominant-baseline="middle"
@@ -1685,7 +1685,7 @@
                                          </path>
                                          <rect width="19.0592" height="8.44863"
                                              transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.477 323.129)"
-                                             fill="#A8CC8D" data-rect="A4"></rect>
+                                             fill="#D1D5DB" data-rect="A4"></rect>
                                          <text
                                              transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.477 323.129)"
                                              x="9.5296" y="4.2243" text-anchor="middle" dominant-baseline="middle"
@@ -1699,7 +1699,7 @@
                                          </path>
                                          <rect width="15.9605" height="8.57558"
                                              transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 271.562 416.648)"
-                                             fill="#A8CC8D" data-rect="A3"></rect>
+                                             fill="#D1D5DB" data-rect="A3"></rect>
                                          <text
                                              transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 271.562 416.648)"
                                              x="7.9803" y="4.2878" text-anchor="middle" dominant-baseline="middle"
@@ -1710,9 +1710,9 @@
                                          <path d="M317.75 355H298.974V408H283.75" stroke="" data-rect="46"
                                              data-path="A2">
                                          </path>
-                                         <rect width="15.9605" height="8.57558"
+                                         <rect id="A2" width="15.9605" height="8.57558"
                                              transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 271.562 403.679)"
-                                             fill="#A8CC8D" data-rect="A2"></rect>
+                                             fill="#D1D5DB" data-rect="A2"></rect>
                                          <text
                                              transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 271.562 403.679)"
                                              x="7.9803" y="4.2878" text-anchor="middle" dominant-baseline="middle"
@@ -1723,9 +1723,9 @@
                                          <path d="M318 355H299.224V394H284" stroke="" data-rect="47"
                                              data-path="A1">
                                          </path>
-                                         <rect width="15.9605" height="8.57558"
+                                         <rect id="A1" width="15.9605" height="8.57558"
                                              transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 271.562 390.709)"
-                                             fill="#A8CC8D" data-rect="A1"></rect>
+                                             fill="#D1D5DB" data-rect="A1"></rect>
                                          <text
                                              transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 271.562 390.709)"
                                              x="7.9803" y="4.2878" text-anchor="middle" dominant-baseline="middle"
@@ -1739,7 +1739,7 @@
                                          </path>
                                          <rect width="18.3212" height="8.4593"
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 97.2422 367.261)"
-                                             fill="#A8CC8D" data-rect="A21">
+                                             fill="#D1D5DB" data-rect="A21">
                                          </rect>
                                          <text
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 97.2422 367.261)"
@@ -1752,7 +1752,7 @@
                                              data-rect="49" data-path="A20"></path>
                                          <rect width="18.3212" height="8.4593"
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 110.977 367.261)"
-                                             fill="#A8CC8D" data-rect="A20">
+                                             fill="#D1D5DB" data-rect="A20">
                                          </rect>
                                          <text
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 110.977 367.261)"
@@ -1765,7 +1765,7 @@
                                              data-rect="50" data-path="A19"></path>
                                          <rect width="18.3212" height="8.4593"
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 124.719 367.261)"
-                                             fill="#A8CC8D" data-rect="A19">
+                                             fill="#D1D5DB" data-rect="A19">
                                          </rect>
                                          <text
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 124.719 367.261)"
@@ -1778,7 +1778,7 @@
                                              data-rect="51" data-path="A18"></path>
                                          <rect width="18.3212" height="8.4593"
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 138.453 367.261)"
-                                             fill="#A8CC8D" data-rect="A18">
+                                             fill="#D1D5DB" data-rect="A18">
                                          </rect>
                                          <text
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 138.453 367.261)"
@@ -1792,7 +1792,7 @@
                                          </path>
                                          <rect width="18.3212" height="8.4593"
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 152.188 367.261)"
-                                             fill="#A8CC8D" data-rect="A17">
+                                             fill="#D1D5DB" data-rect="A17">
                                          </rect>
                                          <text
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 152.188 367.261)"
@@ -1805,7 +1805,7 @@
                                              data-rect="53" data-path="A16"></path>
                                          <rect width="18.3212" height="8.4593"
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 165.922 367.261)"
-                                             fill="#A8CC8D" data-rect="A16">
+                                             fill="#D1D5DB" data-rect="A16">
                                          </rect>
                                          <text
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 165.922 367.261)"
@@ -1820,7 +1820,7 @@
                                          </path>
                                          <rect width="18.3212" height="8.4593"
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 179.656 367.261)"
-                                             fill="#A8CC8D" data-rect="A15">
+                                             fill="#D1D5DB" data-rect="A15">
                                          </rect>
                                          <text
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 179.656 367.261)"
@@ -1834,7 +1834,7 @@
                                              data-rect="55" data-path="A14"></path>
                                          <rect width="18.3212" height="8.4593"
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 193.398 367.261)"
-                                             fill="#A8CC8D" data-rect="A14">
+                                             fill="#D1D5DB" data-rect="A14">
                                          </rect>
                                          <text
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 193.398 367.261)"
@@ -1847,7 +1847,7 @@
                                              data-rect="56" data-path="A13"></path>
                                          <rect width="18.3212" height="8.4593"
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 207.133 367.261)"
-                                             fill="#A8CC8D" data-rect="A13">
+                                             fill="#D1D5DB" data-rect="A13">
                                          </rect>
                                          <text
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 207.133 367.261)"
@@ -1860,7 +1860,7 @@
                                              data-rect="57" data-path="A12"></path>
                                          <rect width="18.3212" height="8.4593"
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 220.867 367.261)"
-                                             fill="#A8CC8D" data-rect="A12">
+                                             fill="#D1D5DB" data-rect="A12">
                                          </rect>
                                          <text
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 220.867 367.261)"
@@ -1873,7 +1873,7 @@
                                              data-rect="58" data-path="A11"></path>
                                          <rect width="18.3212" height="8.4593"
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 234.602 367.261)"
-                                             fill="#A8CC8D" data-rect="A11">
+                                             fill="#D1D5DB" data-rect="A11">
                                          </rect>
                                          <text
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 234.602 367.261)"
@@ -1886,7 +1886,7 @@
                                              data-rect="59" data-path="A10"></path>
                                          <rect width="18.3212" height="8.4593"
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 248.336 367.261)"
-                                             fill="#A8CC8D" data-rect="A10">
+                                             fill="#D1D5DB" data-rect="A10">
                                          </rect>
                                          <text
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 248.336 367.261)"
@@ -1900,7 +1900,7 @@
                                          </path>
                                          <rect width="18.3212" height="8.4593"
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 262.078 367.261)"
-                                             fill="#A8CC8D" data-rect="A9">
+                                             fill="#D1D5DB" data-rect="A9">
                                          </rect>
                                          <text
                                              transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 262.078 367.261)"
@@ -1941,7 +1941,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 155.914 229.897)"
-                                             fill="#A8CC8D" data-rect="B14"></rect>
+                                             fill="#D1D5DB" data-rect="B14"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 155.914 229.897)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -1954,7 +1954,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 156.766 246.418)"
-                                             fill="#A8CC8D" data-rect="B13"></rect>
+                                             fill="#D1D5DB" data-rect="B13"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 156.766 246.418)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -1967,7 +1967,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 156.859 260.083)"
-                                             fill="#A8CC8D" data-rect="B11"></rect>
+                                             fill="#D1D5DB" data-rect="B11"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 156.859 260.083)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -1980,7 +1980,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 156.961 273.749)"
-                                             fill="#A8CC8D" data-rect="B9"></rect>
+                                             fill="#D1D5DB" data-rect="B9"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 156.961 273.749)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -1993,7 +1993,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 157.055 287.412)"
-                                             fill="#A8CC8D" data-rect="B8"></rect>
+                                             fill="#D1D5DB" data-rect="B8"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 157.055 287.412)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2006,7 +2006,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 157.148 301.077)"
-                                             fill="#A8CC8D" data-rect="B7"></rect>
+                                             fill="#D1D5DB" data-rect="B7"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 157.148 301.077)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2019,7 +2019,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 157.25 314.742)"
-                                             fill="#A8CC8D" data-rect="B6"></rect>
+                                             fill="#D1D5DB" data-rect="B6"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 157.25 314.742)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2031,7 +2031,7 @@
                                              data-path="B5"></path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 157.344 328.407)"
-                                             fill="#A8CC8D" data-rect="B5"></rect>
+                                             fill="#D1D5DB" data-rect="B5"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 157.344 328.407)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2044,9 +2044,9 @@
                                          <path d="M70.5 368L89.5 335.5L78.5 330" stroke="" data-rect="9"
                                              data-path="B1">
                                          </path>
-                                         <rect width="23.3394" height="10.4215"
+                                         <rect id="B1" width="23.3394" height="10.4215"
                                              transform="matrix(0.89001 0.455942 -0.518086 0.855329 65.8594 316.291)"
-                                             fill="#A8CC8D" data-rect="B1"></rect>
+                                             fill="#D1D5DB" data-rect="B1"></rect>
                                          <text transform="matrix(0.89001 0.455942 -0.518086 0.855329 65.8594 316.291)"
                                              x="11.67" y="5.21" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">B1</text>
@@ -2056,9 +2056,9 @@
                                          <path d="M70.5 368L97.5 322.671L81.8684 315" stroke="" data-rect="10"
                                              data-path="B2">
                                          </path>
-                                         <rect width="23.3394" height="10.4215"
+                                         <rect id="B2" width="23.3394" height="10.4215"
                                              transform="matrix(0.89001 0.455942 -0.518086 0.855329 73.2812 304.605)"
-                                             fill="#A8CC8D" data-rect="B2"></rect>
+                                             fill="#D1D5DB" data-rect="B2"></rect>
                                          <text transform="matrix(0.89001 0.455942 -0.518086 0.855329 73.2812 304.605)"
                                              x="11.67" y="5.21" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">B2</text>
@@ -2070,7 +2070,7 @@
                                          </path>
                                          <rect width="23.3394" height="10.4215"
                                              transform="matrix(0.89001 0.455942 -0.518086 0.855329 80.6953 292.067)"
-                                             fill="#A8CC8D" data-rect="B3"></rect>
+                                             fill="#D1D5DB" data-rect="B3"></rect>
                                          <text transform="matrix(0.89001 0.455942 -0.518086 0.855329 80.6953 292.067)"
                                              x="11.67" y="5.21" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">B3</text>
@@ -2083,7 +2083,7 @@
                                          </path>
                                          <rect width="23.5612" height="10.3027"
                                              transform="matrix(0.964844 0.262823 -0.294199 0.955744 78.1797 270.546)"
-                                             fill="#A8CC8D" data-rect="B4"></rect>
+                                             fill="#D1D5DB" data-rect="B4"></rect>
                                          <text
                                              transform="matrix(0.964844 0.262823 -0.294199 0.955744 78.1797 270.546)"
                                              x="11.78" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2096,7 +2096,7 @@
                                          </path>
                                          <rect width="23.5612" height="10.3027"
                                              transform="matrix(0.964844 0.262823 -0.294199 0.955744 81.3125 258.898)"
-                                             fill="#A8CC8D" data-rect="B10"></rect>
+                                             fill="#D1D5DB" data-rect="B10"></rect>
                                          <text
                                              transform="matrix(0.964844 0.262823 -0.294199 0.955744 81.3125 258.898)"
                                              x="11.78" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2109,7 +2109,7 @@
                                          </path>
                                          <rect width="23.5612" height="10.3027"
                                              transform="matrix(0.964844 0.262823 -0.294199 0.955744 84.4453 247.25)"
-                                             fill="#A8CC8D" data-rect="B12"></rect>
+                                             fill="#D1D5DB" data-rect="B12"></rect>
                                          <text transform="matrix(0.964844 0.262823 -0.294199 0.955744 84.4453 247.25)"
                                              x="11.78" y="5.15" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">B12</text>
@@ -2122,7 +2122,7 @@
                                          </path>
                                          <rect width="22.9116" height="10.6403"
                                              transform="matrix(0.760869 0.648906 -0.72029 0.693673 151.25 80.5107)"
-                                             fill="#A8CC8D" data-rect="B29"></rect>
+                                             fill="#D1D5DB" data-rect="B29"></rect>
                                          <text transform="matrix(0.760869 0.648906 -0.72029 0.693673 151.25 80.5107)"
                                              x="11.46" y="5.32" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">B29</text>
@@ -2134,7 +2134,7 @@
                                          </path>
                                          <rect width="22.9116" height="10.6403"
                                              transform="matrix(0.760869 0.648906 -0.72029 0.693673 141.867 89.7014)"
-                                             fill="#A8CC8D" data-rect="B28"></rect>
+                                             fill="#D1D5DB" data-rect="B28"></rect>
                                          <text transform="matrix(0.760869 0.648906 -0.72029 0.693673 141.867 89.7014)"
                                              x="11.46" y="5.32" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">B28</text>
@@ -2145,7 +2145,7 @@
                                              data-rect="17" data-path="B27"></path>
                                          <rect width="22.9116" height="10.6403"
                                              transform="matrix(0.760869 0.648906 -0.72029 0.693673 132.766 98.8628)"
-                                             fill="#A8CC8D" data-rect="B27"></rect>
+                                             fill="#D1D5DB" data-rect="B27"></rect>
                                          <text transform="matrix(0.760869 0.648906 -0.72029 0.693673 132.766 98.8628)"
                                              x="11.46" y="5.32" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">B27</text>
@@ -2157,7 +2157,7 @@
                                          </path>
                                          <rect width="22.9116" height="10.6403"
                                              transform="matrix(0.760869 0.648906 -0.72029 0.693673 123.188 108.253)"
-                                             fill="#A8CC8D" data-rect="B24"></rect>
+                                             fill="#D1D5DB" data-rect="B24"></rect>
                                          <text transform="matrix(0.760869 0.648906 -0.72029 0.693673 123.188 108.253)"
                                              x="11.46" y="5.32" text-anchor="middle" dominant-baseline="middle"
                                              font-size="5" fill="black">B24</text>
@@ -2170,7 +2170,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 155.82 216.233)"
-                                             fill="#A8CC8D" data-rect="B15"></rect>
+                                             fill="#D1D5DB" data-rect="B15"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 155.82 216.233)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2183,7 +2183,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 155.719 202.568)"
-                                             fill="#A8CC8D" data-rect="B16"></rect>
+                                             fill="#D1D5DB" data-rect="B16"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 155.719 202.568)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2196,7 +2196,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 155.625 188.904)"
-                                             fill="#A8CC8D" data-rect="B19"></rect>
+                                             fill="#D1D5DB" data-rect="B19"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 155.625 188.904)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2211,7 +2211,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 364.758 235.785)"
-                                             fill="#A8CC8D" data-rect="B35"></rect>
+                                             fill="#D1D5DB" data-rect="B35"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 364.758 235.785)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2224,7 +2224,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 364.875 252.377)"
-                                             fill="#A8CC8D" data-rect="B34"></rect>
+                                             fill="#D1D5DB" data-rect="B34"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 364.875 252.377)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2237,7 +2237,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 364.969 266.043)"
-                                             fill="#A8CC8D" data-rect="B33"></rect>
+                                             fill="#D1D5DB" data-rect="B33"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 364.969 266.043)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2250,7 +2250,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 365.062 279.708)"
-                                             fill="#A8CC8D" data-rect="B32"></rect>
+                                             fill="#D1D5DB" data-rect="B32"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 365.062 279.708)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2263,7 +2263,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 365.164 293.373)"
-                                             fill="#A8CC8D" data-rect="B31"></rect>
+                                             fill="#D1D5DB" data-rect="B31"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 365.164 293.373)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2276,7 +2276,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 365.258 307.036)"
-                                             fill="#A8CC8D" data-rect="B30"></rect>
+                                             fill="#D1D5DB" data-rect="B30"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 365.258 307.036)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2289,7 +2289,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 365.352 320.702)"
-                                             fill="#A8CC8D" data-rect="B26"></rect>
+                                             fill="#D1D5DB" data-rect="B26"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 365.352 320.702)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2302,7 +2302,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 365.453 334.368)"
-                                             fill="#A8CC8D" data-rect="B25"></rect>
+                                             fill="#D1D5DB" data-rect="B25"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 365.453 334.368)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2316,7 +2316,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 364.656 222.12)"
-                                             fill="#A8CC8D" data-rect="B36"></rect>
+                                             fill="#D1D5DB" data-rect="B36"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 364.656 222.12)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2329,7 +2329,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 364.562 208.456)"
-                                             fill="#A8CC8D" data-rect="B37"></rect>
+                                             fill="#D1D5DB" data-rect="B37"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 364.562 208.456)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2342,7 +2342,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 364.469 194.79)"
-                                             fill="#A8CC8D" data-rect="B38"></rect>
+                                             fill="#D1D5DB" data-rect="B38"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 364.469 194.79)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2356,7 +2356,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 86.1172 201.768)"
-                                             fill="#A8CC8D" data-rect="B17"></rect>
+                                             fill="#D1D5DB" data-rect="B17"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 86.1172 201.768)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2369,7 +2369,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 86.0234 188.103)"
-                                             fill="#A8CC8D" data-rect="B18"></rect>
+                                             fill="#D1D5DB" data-rect="B18"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 86.0234 188.103)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2382,7 +2382,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 85.9297 174.438)"
-                                             fill="#A8CC8D" data-rect="B20"></rect>
+                                             fill="#D1D5DB" data-rect="B20"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 85.9297 174.438)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2395,7 +2395,7 @@
                                          </path>
                                          <rect width="23.5396" height="10.3098"
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 85.8281 160.774)"
-                                             fill="#A8CC8D" data-rect="B21"></rect>
+                                             fill="#D1D5DB" data-rect="B21"></rect>
                                          <text
                                              transform="matrix(0.999991 -0.00410733 0.028725 0.999587 85.8281 160.774)"
                                              x="11.77" y="5.15" text-anchor="middle" dominant-baseline="middle"
@@ -2409,7 +2409,7 @@
                                          </path>
                                          <rect width="23.0386" height="10.5764"
                                              transform="matrix(0.799703 0.600396 -0.672015 0.740538 99.9297 133.077)"
-                                             fill="#A8CC8D" data-rect="B22"></rect>
+                                             fill="#D1D5DB" data-rect="B22"></rect>
                                          <text
                                              transform="matrix(0.799703 0.600396 -0.672015 0.740538 99.9297 133.077)"
                                              x="11.52" y="5.29" text-anchor="middle" dominant-baseline="middle"
@@ -2422,7 +2422,7 @@
                                          </path>
                                          <rect width="23.0386" height="10.5764"
                                              transform="matrix(0.799703 0.600396 -0.672015 0.740538 109.586 122.867)"
-                                             fill="#A8CC8D" data-rect="B23"></rect>
+                                             fill="#D1D5DB" data-rect="B23"></rect>
                                          <text
                                              transform="matrix(0.799703 0.600396 -0.672015 0.740538 109.586 122.867)"
                                              x="11.52" y="5.29" text-anchor="middle" dominant-baseline="middle"
@@ -2448,7 +2448,7 @@
              </h1>
              <p class="text-base text-center">Berikut hasil data Real-time Monitoring
                  dari Keseluruhan area</p>
-             <button class="bg-black text-white text-2xl rounded-md px-4 py-3">Refresh</button>
+             {{-- <button class="bg-black text-white text-2xl rounded-md px-4 py-3">Refresh</button> --}}
          </div>
 
          <div class="flex grid my-3 flex-grow w-full">
@@ -2456,37 +2456,37 @@
                  <h1
                      class="text-xl flex flex-grow flex-col justify-evenly items-start border border-gray-300 rounded-lg text-center py-3 px-5 gap-1">
                      <span class="text-gray-400">Area A</span>
-                     <span class="font-bold text-3xl">10</span>
+                     <span class="font-bold text-3xl" id="count-a-occupied">10</span>
                      <span>Terisi</span>
                  </h1>
                  <h1
                      class="text-xl flex flex-grow flex-col justify-evenly items-start border border-gray-300 rounded-lg text-center py-3 px-5 gap-1">
                      <span class="text-gray-400">Area A</span>
-                     <span class="font-bold text-3xl">50</span>
+                     <span class="font-bold text-3xl" id="count-a-available">50</span>
                      <span>Kosong</span>
                  </h1>
                  <h1
                      class="text-xl flex flex-grow flex-col justify-evenly items-start border border-gray-300 rounded-lg text-center py-3 px-5 gap-1">
                      <span class="text-gray-400">Area B</span>
-                     <span class="font-bold text-3xl">5</span>
+                     <span class="font-bold text-3xl" id="count-b-occupied">5</span>
                      <span>Terisi</span>
                  </h1>
                  <h1
                      class="text-xl flex flex-grow flex-col justify-evenly items-start border border-gray-300 rounded-lg text-center py-3 px-5 gap-1">
                      <span class="text-gray-400">Area B</span>
-                     <span class="font-bold text-3xl">55</span>
+                     <span class="font-bold text-3xl" id="count-b-available">55</span>
                      <span>Kosong</span>
                  </h1>
                  <h1
                      class="text-xl flex flex-grow flex-col justify-evenly items-start border border-gray-300 rounded-lg text-center py-3 px-5 gap-1">
                      <span class="text-gray-400">Area C</span>
-                     <span class="font-bold text-3xl">20</span>
+                     <span class="font-bold text-3xl" id="count-c-occupied">20</span>
                      <span>Terisi</span>
                  </h1>
                  <h1
                      class="text-xl flex flex-grow flex-col justify-evenly items-start border border-gray-300 rounded-lg text-center py-3 px-5 gap-1">
                      <span class="text-gray-400">Area C</span>
-                     <span class="font-bold text-3xl">30</span>
+                     <span class="font-bold text-3xl" id="count-c-available">30</span>
                      <span>Kosong</span>
                  </h1>
              </div>
@@ -2505,6 +2505,116 @@
              mobileMenu.classList.toggle('hidden');
          });
      </script>
+
+     <script>
+        const burger = document.getElementById('burger');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        burger.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+    <script>
+        // --- KONFIGURASI ---
+        const AREAS = [
+            {
+                endpoint: 'Area_A', // Nama di URL API: /status/Area_A
+                prefix: 'a',        // Untuk ID angka dashboard: count-a-occupied
+                svgCode: 'A'        // Huruf depan ID di SVG: id="A1"
+            },
+            {
+                endpoint: 'Area_B',
+                prefix: 'b',
+                svgCode: 'B'
+            },
+            {
+                endpoint: 'Area_C',
+                prefix: 'c',
+                svgCode: 'C'
+            }
+        ];
+
+        const COLORS = {
+            DEFAULT: '#D1D5DB',   // Abu-abu (Offline/Loading) - Sesuai HTML kamu
+            AVAILABLE: '#A8CC8D', // Hijau (Kosong) - Sesuai HTML kamu
+            OCCUPIED: '#DC2626'   // Merah (Terisi)
+        };
+
+        // --- FUNGSI UPDATE ---
+        async function updateSystem(areaConfig) {
+            const { endpoint, prefix, svgCode } = areaConfig;
+
+            // 1. Siapkan elemen Angka Dashboard
+            const elAvail = document.getElementById(`count-${prefix}-available`);
+            const elOccup = document.getElementById(`count-${prefix}-occupied`);
+
+            try {
+                // 2. Ambil Data dari Server
+                const response = await fetch(`/status/${endpoint}`);
+                if (!response.ok) throw new Error(`Gagal load ${endpoint}`);
+
+                const json = await response.json();
+                const slots = json[endpoint]; // Ambil object slot (S1, S2...)
+
+                if (!slots) return;
+
+                let countAvail = 0;
+                let countOccup = 0;
+
+                // 3. Loop setiap slot dari database
+                // key = "S1", "S2", "S40"...
+                // value = { status_slot: "Terisi" ... }
+                for (const [key, value] of Object.entries(slots)) {
+
+                    // Buat ID yang akan dicari di HTML.
+                    // Hapus huruf 'S' dari key database, ganti dengan Kode Area.
+                    // Contoh: Database "S10" di Area B menjadi ID HTML "B10"
+                    const slotNumber = key.replace('S', '');
+                    const targetId = `${svgCode}${slotNumber}`;
+
+                    // Cari elemen SVG berdasarkan ID
+                    const svgElement = document.getElementById(targetId);
+
+                    // Tentukan warna
+                    let fillColor = COLORS.DEFAULT;
+
+                    if (value.status_slot === 'Terisi') {
+                        fillColor = COLORS.OCCUPIED;
+                        countOccup++;
+                    } else if (value.status_slot === 'Kosong') {
+                        fillColor = COLORS.AVAILABLE;
+                        countAvail++;
+                    }
+
+                    // Update Warna SVG (Hanya jika ID ditemukan di HTML)
+                    if (svgElement) {
+                        svgElement.setAttribute('fill', fillColor);
+                    } else {
+                        // Opsional: Log ke console biar tau mana ID yang belum dipasang di HTML
+                        // console.warn(`ID HTML tidak ditemukan: ${targetId}`);
+                    }
+                }
+
+                // 4. Update Angka Dashboard
+                if (elAvail) elAvail.innerText = countAvail;
+                if (elOccup) elOccup.innerText = countOccup;
+
+            } catch (error) {
+                console.error(`Error pada ${endpoint}:`, error);
+            }
+        }
+
+        // --- EKSEKUSI ---
+        function runAllUpdates() {
+            AREAS.forEach(area => updateSystem(area));
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            runAllUpdates();
+            setInterval(runAllUpdates, 2000); // Refresh setiap 2 detik
+        });
+    </script>
 
  </body>
 

@@ -23,6 +23,23 @@
              }
          }
      </script>
+     <style>
+         /* Default: Sembunyikan semua path yang punya data-path */
+         path[data-path] {
+             opacity: 0;
+             transition: opacity 0.5s ease-in-out;
+             /* Animasi halus */
+         }
+
+         /* Class untuk memunculkan path */
+         path.path-active {
+             opacity: 1 !important;
+             stroke-width: 3px;
+             /* Opsional: pertebal sedikit biar jelas */
+             filter: drop-shadow(0 0 2px #20FD2F);
+             /* Opsional: kasih efek glowing */
+         }
+     </style>
  </head>
 
  <body class="bg-[#FFFFFF] flex flex-col min-h-screen">
@@ -93,8 +110,8 @@
                          <g class="clickable">
                              <path d="M317.5 355H311V205.5H186.5V187" stroke="#20FD2F" data-rect="1" data-path="A40">
                              </path>
-                             <rect id="A1" width="20.6417" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 191.25 174.056)" fill="#A8CC8D"
+                             <rect width="20.6417" height="8.44863"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 191.25 174.056)" fill="#D1D5DB"
                                  data-rect="A40">
                              </rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 191.25 174.056)" x="10.3208"
@@ -107,8 +124,8 @@
                          <g class="clickable">
                              <path d="M317.5 355H311.695V205.5H200.5V187" stroke="#20FD2F" data-rect="2"
                                  data-path="A39"></path>
-                             <rect id="A2" width="20.6417" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 203.695 174.056)" fill="#A8CC8D"
+                             <rect width="20.6417" height="8.44863"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 203.695 174.056)" fill="#D1D5DB"
                                  data-rect="A39">
                              </rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 203.695 174.056)" x="10.3208"
@@ -120,7 +137,7 @@
                              <path d="M317.5 355H312.24V205.5H211.5V187" stroke="#20FD2F" data-rect="3"
                                  data-path="A38"></path>
                              <rect width="20.6417" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 216.141 174.056)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 216.141 174.056)" fill="#D1D5DB"
                                  data-rect="A38">
                              </rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 216.141 174.056)" x="10.3208"
@@ -132,7 +149,7 @@
                              <path d="M317.5 355H312.885V205.5H224.5V187" stroke="#20FD2F" data-rect="4"
                                  data-path="A37"></path>
                              <rect width="20.6417" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 228.578 174.056)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 228.578 174.056)" fill="#D1D5DB"
                                  data-rect="A37"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 228.578 174.056)" x="10.3208"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -143,7 +160,7 @@
                              <path d="M317.5 355H313.481V205.5H236.5V187" stroke="#20FD2F" data-rect="5"
                                  data-path="A36"></path>
                              <rect width="20.6417" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 241.023 174.056)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 241.023 174.056)" fill="#D1D5DB"
                                  data-rect="A36"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 241.023 174.056)" x="10.3208"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -154,7 +171,7 @@
                              <path d="M317.5 355H314.126V205.5H249.5V187" stroke="#20FD2F" data-rect="6"
                                  data-path="A35"></path>
                              <rect width="20.6417" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 253.461 174.056)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 253.461 174.056)" fill="#D1D5DB"
                                  data-rect="A35"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 253.461 174.056)" x="10.3208"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -165,7 +182,7 @@
                              <path d="M317.5 355H314.721V205.5H261.5V187" stroke="#20FD2F" data-rect="7"
                                  data-path="A34"></path>
                              <rect width="20.6417" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 265.906 174.056)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 265.906 174.056)" fill="#D1D5DB"
                                  data-rect="A34"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 265.906 174.056)" x="10.3208"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -176,7 +193,7 @@
                              <path d="M317.5 355H315.317V205.5H273.5V187" stroke="#20FD2F" data-rect="8"
                                  data-path="A27"></path>
                              <rect width="20.6417" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 278.352 174.056)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 278.352 174.056)" fill="#D1D5DB"
                                  data-rect="A27"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 278.352 174.056)" x="10.3208"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -190,7 +207,7 @@
                              <path d="M318 355H50V425H65.529" stroke="#20FD2F" data-rect="9" data-path="A33"></path>
                              <rect width="15.9605" height="8.57558"
                                  transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 59.6094 420.622)"
-                                 fill="#A8CC8D" data-rect="A33"></rect>
+                                 fill="#D1D5DB" data-rect="A33"></rect>
                              <text transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 59.6094 420.622)"
                                  x="7.9803" y="4.2878" text-anchor="middle" dominant-baseline="middle" font-size="5"
                                  fill="black">A33</text>
@@ -200,7 +217,7 @@
                              <path d="M318 355H50V412H65.529" stroke="#20FD2F" data-rect="10" data-path="A32"></path>
                              <rect width="15.9605" height="8.57558"
                                  transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 59.6094 407.653)"
-                                 fill="#A8CC8D" data-rect="A32"></rect>
+                                 fill="#D1D5DB" data-rect="A32"></rect>
                              <text transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 59.6094 407.653)"
                                  x="7.9803" y="4.2878" text-anchor="middle" dominant-baseline="middle" font-size="5"
                                  fill="black">A32</text>
@@ -211,7 +228,7 @@
                              </path>
                              <rect width="15.9605" height="8.57558"
                                  transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 59.6094 394.683)"
-                                 fill="#A8CC8D" data-rect="A31"></rect>
+                                 fill="#D1D5DB" data-rect="A31"></rect>
                              <text transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 59.6094 394.683)"
                                  x="7.9803" y="4.2878" text-anchor="middle" dominant-baseline="middle" font-size="5"
                                  fill="black">A31</text>
@@ -223,7 +240,7 @@
                                  data-path="A41"></path>
                              <rect width="15.9939" height="8.55811"
                                  transform="matrix(0.999168 0.0407728 -0.052985 0.998595 11.3047 404.367)"
-                                 fill="#A8CC8D" data-rect="A41"></rect>
+                                 fill="#D1D5DB" data-rect="A41"></rect>
                              <text transform="matrix(0.999168 0.0407728 -0.052985 0.998595 11.3047 404.367)" x="7.9970"
                                  y="4.2791" text-anchor="middle" dominant-baseline="middle" font-size="5"
                                  fill="black">A41</text>
@@ -234,7 +251,7 @@
                                  data-path="A42"></path>
                              <rect width="15.9939" height="8.55811"
                                  transform="matrix(0.999168 0.0407728 -0.052985 0.998595 11.1797 414.831)"
-                                 fill="#A8CC8D" data-rect="A42"></rect>
+                                 fill="#D1D5DB" data-rect="A42"></rect>
                              <text transform="matrix(0.999168 0.0407728 -0.052985 0.998595 11.1797 414.831)" x="7.9970"
                                  y="4.2791" text-anchor="middle" dominant-baseline="middle" font-size="5"
                                  fill="black">A42</text>
@@ -245,7 +262,7 @@
                                  data-path="A43"></path>
                              <rect width="15.9939" height="8.55811"
                                  transform="matrix(0.999168 0.0407728 -0.052985 0.998595 11.0547 425.296)"
-                                 fill="#A8CC8D" data-rect="A43"></rect>
+                                 fill="#D1D5DB" data-rect="A43"></rect>
                              <text transform="matrix(0.999168 0.0407728 -0.052985 0.998595 11.0547 425.296)" x="7.9970"
                                  y="4.2791" text-anchor="middle" dominant-baseline="middle" font-size="5"
                                  fill="black">A43</text>
@@ -258,7 +275,7 @@
                                  data-path="A30"></path>
                              <rect width="15.9631" height="8.57423"
                                  transform="matrix(0.999693 0.0247774 -0.0321019 0.999485 28.0938 326.399)"
-                                 fill="#A8CC8D" data-rect="A30"></rect>
+                                 fill="#D1D5DB" data-rect="A30"></rect>
                              <text transform="matrix(0.999693 0.0247774 -0.0321019 0.999485 28.0938 326.399)"
                                  x="7.9816" y="4.2871" text-anchor="middle" dominant-baseline="middle" font-size="5"
                                  fill="black">A30</text>
@@ -269,7 +286,7 @@
                                  data-path="A29"></path>
                              <rect width="15.9631" height="8.57423"
                                  transform="matrix(0.999693 0.0247774 -0.0321019 0.999485 28.1875 336.887)"
-                                 fill="#A8CC8D" data-rect="A29"></rect>
+                                 fill="#D1D5DB" data-rect="A29"></rect>
                              <text transform="matrix(0.999693 0.0247774 -0.0321019 0.999485 28.1875 336.887)"
                                  x="7.9816" y="4.2871" text-anchor="middle" dominant-baseline="middle" font-size="5"
                                  fill="black">A29</text>
@@ -280,7 +297,7 @@
                              </path>
                              <rect width="15.9631" height="8.57423"
                                  transform="matrix(0.999693 0.0247774 -0.0321019 0.999485 28.2734 347.373)"
-                                 fill="#A8CC8D" data-rect="A28"></rect>
+                                 fill="#D1D5DB" data-rect="A28"></rect>
                              <text transform="matrix(0.999693 0.0247774 -0.0321019 0.999485 28.2734 347.373)"
                                  x="7.9816" y="4.2871" text-anchor="middle" dominant-baseline="middle" font-size="5"
                                  fill="black">A28</text>
@@ -291,7 +308,7 @@
                              <path d="M317.5 355H309.547V120V113.5H149.5V92" stroke="#20FD2F" data-rect="18"
                                  data-path="A60"></path>
                              <rect width="20.7009" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 154.156 76.3215)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 154.156 76.3215)" fill="#D1D5DB"
                                  data-rect="A60"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 154.156 76.3215)" x="10.3504"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -302,7 +319,7 @@
                              <path d="M317.5 355H310.21V120V113.5H163.5V92" stroke="#20FD2F" data-rect="19"
                                  data-path="A59"></path>
                              <rect width="20.7009" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 167.93 76.3215)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 167.93 76.3215)" fill="#D1D5DB"
                                  data-rect="A59">
                              </rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 167.93 76.3215)" x="10.3504"
@@ -314,7 +331,7 @@
                              <path d="M317.5 355H310.873V120V113.5H177.5V92" stroke="#20FD2F" data-rect="20"
                                  data-path="A58"></path>
                              <rect width="20.7009" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 181.695 76.3215)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 181.695 76.3215)" fill="#D1D5DB"
                                  data-rect="A58"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 181.695 76.3215)" x="10.3504"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -325,7 +342,7 @@
                              <path d="M317.5 355H311.536V120V113.5H191.5V92" stroke="#20FD2F" data-rect="21"
                                  data-path="A56"></path>
                              <rect width="20.7009" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 195.461 76.3215)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 195.461 76.3215)" fill="#D1D5DB"
                                  data-rect="A56"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 195.461 76.3215)" x="10.3504"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -336,7 +353,7 @@
                              <path d="M317.5 355H312.151V120V113.5H204.5V92" stroke="#20FD2F" data-rect="22"
                                  data-path="A55"></path>
                              <rect width="20.7009" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 209.227 76.3215)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 209.227 76.3215)" fill="#D1D5DB"
                                  data-rect="A55"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 209.227 76.3215)" x="10.3504"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -349,7 +366,7 @@
                              <path d="M317.5 355H310V120H187V133.5" stroke="#20FD2F" data-rect="23" data-path="A57">
                              </path>
                              <rect width="20.7009" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 191.25 130.283)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 191.25 130.283)" fill="#D1D5DB"
                                  data-rect="A57">
                              </rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 191.25 130.283)" x="10.3504"
@@ -361,7 +378,7 @@
                              <path d="M317.5 355H310.718V120H199.5V133.5" stroke="#20FD2F" data-rect="24"
                                  data-path="A54"></path>
                              <rect width="20.7009" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 203.695 130.283)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 203.695 130.283)" fill="#D1D5DB"
                                  data-rect="A54"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 203.695 130.283)" x="10.3504"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -372,7 +389,7 @@
                              <path d="M317.5 355H311.466V120H212.5V133.5" stroke="#20FD2F" data-rect="25"
                                  data-path="A49"></path>
                              <rect width="20.7009" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 216.141 130.283)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 216.141 130.283)" fill="#D1D5DB"
                                  data-rect="A49"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 216.141 130.283)" x="10.3504"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -383,7 +400,7 @@
                              <path d="M317.5 355H312.155V120H224.5V133.5" stroke="#20FD2F" data-rect="26"
                                  data-path="A48"></path>
                              <rect width="20.7009" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 228.578 130.283)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 228.578 130.283)" fill="#D1D5DB"
                                  data-rect="A48"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 228.578 130.283)" x="10.3504"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -394,7 +411,7 @@
                              <path d="M317.5 355H312.902V120H237.5V133.5" stroke="#20FD2F" data-rect="27"
                                  data-path="A47"></path>
                              <rect width="20.7009" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 241.023 130.283)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 241.023 130.283)" fill="#D1D5DB"
                                  data-rect="A47"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 241.023 130.283)" x="10.3504"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -405,7 +422,7 @@
                              <path d="M317.5 355H313.592V120H249.5V133.5" stroke="#20FD2F" data-rect="28"
                                  data-path="A46"></path>
                              <rect width="20.7009" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 253.461 130.283)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 253.461 130.283)" fill="#D1D5DB"
                                  data-rect="A46"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 253.461 130.283)" x="10.3504"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -416,7 +433,7 @@
                              <path d="M317.5 355H314.282V120H261.5V133.5" stroke="#20FD2F" data-rect="29"
                                  data-path="A45"></path>
                              <rect width="20.7009" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 265.906 130.283)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 265.906 130.283)" fill="#D1D5DB"
                                  data-rect="A45"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 265.906 130.283)" x="10.3504"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -427,7 +444,7 @@
                              <path d="M317.5 355H315.029V120H274.5V133.5" stroke="#20FD2F" data-rect="30"
                                  data-path="A44"></path>
                              <rect width="20.7009" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 278.352 130.283)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 278.352 130.283)" fill="#D1D5DB"
                                  data-rect="A44"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 278.352 130.283)" x="10.3504"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -441,7 +458,7 @@
                                  data-path="A53">
                              </path>
                              <rect width="17.7818" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 261.461 44.4485)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 261.461 44.4485)" fill="#D1D5DB"
                                  data-rect="A53"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 261.461 44.4485)" x="8.8909"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -453,7 +470,7 @@
                                  data-path="A52">
                              </path>
                              <rect width="17.7818" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 272.578 44.4485)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 272.578 44.4485)" fill="#D1D5DB"
                                  data-rect="A52"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 272.578 44.4485)" x="8.8909"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -465,7 +482,7 @@
                                  data-path="A51">
                              </path>
                              <rect width="17.7818" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 283.695 44.4485)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 283.695 44.4485)" fill="#D1D5DB"
                                  data-rect="A51"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 283.695 44.4485)" x="8.8909"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -477,7 +494,7 @@
                                  data-path="A50">
                              </path>
                              <rect width="17.7818" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 294.812 44.4485)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 294.812 44.4485)" fill="#D1D5DB"
                                  data-rect="A50"></rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 294.812 44.4485)" x="8.8909"
                                  y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -490,7 +507,7 @@
                              <path d="M317.5 355H306.741V226H221.5V238" stroke="#20FD2F" data-rect="35"
                                  data-path="A26"></path>
                              <rect width="19.0592" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 227.016 232.6)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 227.016 232.6)" fill="#D1D5DB"
                                  data-rect="A26">
                              </rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 227.016 232.6)" x="9.5296"
@@ -502,7 +519,7 @@
                              <path d="M317.5 355H308.31V226H235.5V238" stroke="#20FD2F" data-rect="36"
                                  data-path="A25"></path>
                              <rect width="19.0592" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 239.461 232.6)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 239.461 232.6)" fill="#D1D5DB"
                                  data-rect="A25">
                              </rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 239.461 232.6)" x="9.5296"
@@ -514,7 +531,7 @@
                              <path d="M317.5 355H309.655V226H247.5V238" stroke="#20FD2F" data-rect="37"
                                  data-path="A24"></path>
                              <rect width="19.0592" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 251.898 232.6)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 251.898 232.6)" fill="#D1D5DB"
                                  data-rect="A24">
                              </rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 251.898 232.6)" x="9.5296"
@@ -526,7 +543,7 @@
                              <path d="M317.5 355H311V226H259.5V238" stroke="#20FD2F" data-rect="38" data-path="A23">
                              </path>
                              <rect width="19.0592" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 264.344 232.6)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 264.344 232.6)" fill="#D1D5DB"
                                  data-rect="A23">
                              </rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 264.344 232.6)" x="9.5296"
@@ -538,7 +555,7 @@
                              <path d="M317.5 355H310.5V226H272.5V238" stroke="#20FD2F" data-rect="39"
                                  data-path="A22"></path>
                              <rect width="19.0592" height="8.44863"
-                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 276.781 232.6)" fill="#A8CC8D"
+                                 transform="matrix(0.000960682 1 -0.999975 0.00705118 276.781 232.6)" fill="#D1D5DB"
                                  data-rect="A22">
                              </rect>
                              <text transform="matrix(0.000960682 1 -0.999975 0.00705118 276.781 232.6)" x="9.5296"
@@ -552,7 +569,7 @@
                              </path>
                              <rect width="19.0592" height="8.44863"
                                  transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.281 273.366)"
-                                 fill="#A8CC8D" data-rect="A8"></rect>
+                                 fill="#D1D5DB" data-rect="A8"></rect>
                              <text transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.281 273.366)"
                                  x="9.5296" y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
                                  fill="black">A8</text>
@@ -563,7 +580,7 @@
                              </path>
                              <rect width="19.0592" height="8.44863"
                                  transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.328 285.807)"
-                                 fill="#A8CC8D" data-rect="A7"></rect>
+                                 fill="#D1D5DB" data-rect="A7"></rect>
                              <text transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.328 285.807)"
                                  x="9.5296" y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
                                  fill="black">A7</text>
@@ -574,7 +591,7 @@
                              </path>
                              <rect width="19.0592" height="8.44863"
                                  transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.375 298.247)"
-                                 fill="#A8CC8D" data-rect="A6"></rect>
+                                 fill="#D1D5DB" data-rect="A6"></rect>
                              <text transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.375 298.247)"
                                  x="9.5296" y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
                                  fill="black">A6</text>
@@ -585,7 +602,7 @@
                              </path>
                              <rect width="19.0592" height="8.44863"
                                  transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.422 310.688)"
-                                 fill="#A8CC8D" data-rect="A5"></rect>
+                                 fill="#D1D5DB" data-rect="A5"></rect>
                              <text transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.422 310.688)"
                                  x="9.5296" y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
                                  fill="black">A5</text>
@@ -596,7 +613,7 @@
                              </path>
                              <rect width="19.0592" height="8.44863"
                                  transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.477 323.129)"
-                                 fill="#A8CC8D" data-rect="A4"></rect>
+                                 fill="#D1D5DB" data-rect="A4"></rect>
                              <text transform="matrix(-0.999988 0.00488466 -0.010975 -0.99994 301.477 323.129)"
                                  x="9.5296" y="4.2243" text-anchor="middle" dominant-baseline="middle" font-size="5"
                                  fill="black">A4</text>
@@ -607,7 +624,7 @@
                              <path d="M317.5 355H299V421H284" stroke="#20FD2F" data-rect="45" data-path="A3"></path>
                              <rect width="15.9605" height="8.57558"
                                  transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 271.562 416.648)"
-                                 fill="#A8CC8D" data-rect="A3"></rect>
+                                 fill="#D1D5DB" data-rect="A3"></rect>
                              <text transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 271.562 416.648)"
                                  x="7.9803" y="4.2878" text-anchor="middle" dominant-baseline="middle" font-size="5"
                                  fill="black">A3</text>
@@ -616,9 +633,9 @@
                          <g class="clickable">
                              <path d="M317.75 355H298.974V408H283.75" stroke="#20FD2F" data-rect="46" data-path="A2">
                              </path>
-                             <rect width="15.9605" height="8.57558"
+                             <rect id="A2" width="15.9605" height="8.57558"
                                  transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 271.562 403.679)"
-                                 fill="#A8CC8D" data-rect="A2"></rect>
+                                 fill="#D1D5DB" data-rect="A2"></rect>
                              <text transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 271.562 403.679)"
                                  x="7.9803" y="4.2878" text-anchor="middle" dominant-baseline="middle" font-size="5"
                                  fill="black">A2</text>
@@ -627,9 +644,9 @@
                          <g class="clickable">
                              <path d="M318 355H299.224V394H284" stroke="#20FD2F" data-rect="47" data-path="A1">
                              </path>
-                             <rect width="15.9605" height="8.57558"
+                             <rect id="A1" width="15.9605" height="8.57558"
                                  transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 271.562 390.709)"
-                                 fill="#A8CC8D" data-rect="A1"></rect>
+                                 fill="#D1D5DB" data-rect="A1"></rect>
                              <text transform="matrix(0.999651 -0.0264039 0.0197464 0.999805 271.562 390.709)"
                                  x="7.9803" y="4.2878" text-anchor="middle" dominant-baseline="middle" font-size="5"
                                  fill="black">A1</text>
@@ -641,7 +658,7 @@
                                  data-path="A21"></path>
                              <rect width="18.3212" height="8.4593"
                                  transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 97.2422 367.261)"
-                                 fill="#A8CC8D" data-rect="A21">
+                                 fill="#D1D5DB" data-rect="A21">
                              </rect>
                              <text transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 97.2422 367.261)" x="9.1606"
                                  y="4.2296" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -653,7 +670,7 @@
                                  data-path="A20"></path>
                              <rect width="18.3212" height="8.4593"
                                  transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 110.977 367.261)"
-                                 fill="#A8CC8D" data-rect="A20">
+                                 fill="#D1D5DB" data-rect="A20">
                              </rect>
                              <text transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 110.977 367.261)" x="9.1606"
                                  y="4.2296" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -665,7 +682,7 @@
                                  data-path="A19"></path>
                              <rect width="18.3212" height="8.4593"
                                  transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 124.719 367.261)"
-                                 fill="#A8CC8D" data-rect="A19">
+                                 fill="#D1D5DB" data-rect="A19">
                              </rect>
                              <text transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 124.719 367.261)" x="9.1606"
                                  y="4.2296" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -677,7 +694,7 @@
                                  data-path="A18"></path>
                              <rect width="18.3212" height="8.4593"
                                  transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 138.453 367.261)"
-                                 fill="#A8CC8D" data-rect="A18">
+                                 fill="#D1D5DB" data-rect="A18">
                              </rect>
                              <text transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 138.453 367.261)" x="9.1606"
                                  y="4.2296" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -689,7 +706,7 @@
                                  data-path="A17"></path>
                              <rect width="18.3212" height="8.4593"
                                  transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 152.188 367.261)"
-                                 fill="#A8CC8D" data-rect="A17">
+                                 fill="#D1D5DB" data-rect="A17">
                              </rect>
                              <text transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 152.188 367.261)" x="9.1606"
                                  y="4.2296" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -701,7 +718,7 @@
                                  data-path="A16"></path>
                              <rect width="18.3212" height="8.4593"
                                  transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 165.922 367.261)"
-                                 fill="#A8CC8D" data-rect="A16">
+                                 fill="#D1D5DB" data-rect="A16">
                              </rect>
                              <text transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 165.922 367.261)" x="9.1606"
                                  y="4.2296" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -714,7 +731,7 @@
                                  data-path="A15"></path>
                              <rect width="18.3212" height="8.4593"
                                  transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 179.656 367.261)"
-                                 fill="#A8CC8D" data-rect="A15">
+                                 fill="#D1D5DB" data-rect="A15">
                              </rect>
                              <text transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 179.656 367.261)" x="9.1606"
                                  y="4.2296" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -727,7 +744,7 @@
                                  data-path="A14"></path>
                              <rect width="18.3212" height="8.4593"
                                  transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 193.398 367.261)"
-                                 fill="#A8CC8D" data-rect="A14">
+                                 fill="#D1D5DB" data-rect="A14">
                              </rect>
                              <text transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 193.398 367.261)" x="9.1606"
                                  y="4.2296" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -739,7 +756,7 @@
                                  data-path="A13"></path>
                              <rect width="18.3212" height="8.4593"
                                  transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 207.133 367.261)"
-                                 fill="#A8CC8D" data-rect="A13">
+                                 fill="#D1D5DB" data-rect="A13">
                              </rect>
                              <text transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 207.133 367.261)" x="9.1606"
                                  y="4.2296" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -751,7 +768,7 @@
                                  data-path="A12"></path>
                              <rect width="18.3212" height="8.4593"
                                  transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 220.867 367.261)"
-                                 fill="#A8CC8D" data-rect="A12">
+                                 fill="#D1D5DB" data-rect="A12">
                              </rect>
                              <text transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 220.867 367.261)" x="9.1606"
                                  y="4.2296" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -763,7 +780,7 @@
                                  data-path="A11"></path>
                              <rect width="18.3212" height="8.4593"
                                  transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 234.602 367.261)"
-                                 fill="#A8CC8D" data-rect="A11">
+                                 fill="#D1D5DB" data-rect="A11">
                              </rect>
                              <text transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 234.602 367.261)" x="9.1606"
                                  y="4.2296" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -775,7 +792,7 @@
                                  data-path="A10"></path>
                              <rect width="18.3212" height="8.4593"
                                  transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 248.336 367.261)"
-                                 fill="#A8CC8D" data-rect="A10">
+                                 fill="#D1D5DB" data-rect="A10">
                              </rect>
                              <text transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 248.336 367.261)" x="9.1606"
                                  y="4.2296" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -787,7 +804,7 @@
                                  data-path="A9"></path>
                              <rect width="18.3212" height="8.4593"
                                  transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 262.078 367.261)"
-                                 fill="#A8CC8D" data-rect="A9">
+                                 fill="#D1D5DB" data-rect="A9">
                              </rect>
                              <text transform="matrix(-0.495707 0.86849 -0.863347 -0.50461 262.078 367.261)" x="9.1606"
                                  y="4.2296" text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -815,57 +832,100 @@
          });
      </script>
      <script>
-         // Konfigurasi
-         const AREA_NAME = 'Area_A'; // Sesuai nama di Database Firebase/API
-         const PREFIX_ID = 'A'; // Sesuai huruf depan ID di SVG (A1, A2...)
+         // --- Konfigurasi ---
+         const AREA_NAME = 'Area_A';
+         const PREFIX_ID = 'A'; // Prefix di SVG (A1, A2...)
+         const API_PREFIX = 'S'; // Prefix dari API (S1, S2...)
+         const TOTAL_SLOTS = 60; // Jumlah total slot yang ada (sesuaikan dengan max slot)
          const API_URL = `/status/${AREA_NAME}`;
 
-         const COLOR_KOSONG = '#A8CC8D'; // Hijau (sesuai warna aslimu)
-         const COLOR_TERISI = '#DC2626'; // Merah (Tailwind red-600)
+         // --- Definisi Warna ---
+         const COLOR_DEFAULT = '#D1D5DB'; // Abu-abu
+         const COLOR_AVAILABLE = '#A8CC8D'; // Hijau
+         const COLOR_OCCUPIED = '#DC2626'; // Merah
+
+         // Fungsi reset semua path jadi mati
+         function resetPaths() {
+             const allPaths = document.querySelectorAll('path[data-path]');
+             allPaths.forEach(path => {
+                 path.classList.remove('path-active');
+             });
+         }
 
          async function updateParkingStatus() {
              try {
-                 // 1. Fetch data dari API Laravel
+                 // 1. Fetch data
                  const response = await fetch(API_URL);
+                 if (!response.ok) throw new Error("Gagal mengambil data");
                  const result = await response.json();
 
-                 // Pastikan data ada
-                 if (!result[AREA_NAME]) return;
+                 // Ambil data slot spesifik area
+                 const slotsData = result[AREA_NAME] || {};
 
-                 const slots = result[AREA_NAME];
+                 // 2. Reset semua Path (matikan dulu semua panah)
+                 resetPaths();
 
-                 // 2. Loop setiap data slot (S1, S2, S3...)
-                 for (const [key, value] of Object.entries(slots)) {
-                     // key = "S1", value = { status_slot: "Kosong/Terisi" ... }
+                 let nearestPathFound = false; // Flag penanda apakah parkir kosong terdekat sudah ketemu
 
-                     // 3. Ubah ID dari API (S1) ke ID SVG (A1)
-                     // Kita ganti huruf 'S' menjadi prefix area ('A')
-                     const slotNumber = key.replace('S', '');
-                     const svgId = `${PREFIX_ID}${slotNumber}`; // Jadi "A1", "A2", dst.
+                 // 3. Loop URUT dari 1 sampai TOTAL_SLOTS (Priority Logic)
+                 for (let i = 1; i <= TOTAL_SLOTS; i++) {
 
-                     // 4. Cari elemen SVG
-                     const element = document.getElementById(svgId);
+                     // Construct ID
+                     const apiId = `${API_PREFIX}${i}`; // S1, S2...
+                     const svgId = `${PREFIX_ID}${i}`; // A1, A2...
 
-                     if (element) {
-                         // 5. Tentukan Warna
-                         const isOccupied = value.status_slot === 'Terisi';
-                         const newColor = isOccupied ? COLOR_TERISI : COLOR_KOSONG;
+                     // Ambil data status slot ini
+                     const slotInfo = slotsData[apiId];
 
-                         // 6. Ubah warna di layar
-                         element.setAttribute('fill', newColor);
+                     // --- LOGIKA PEWARNAAN KOTAK (RECT) ---
+                     const rectElement = document.querySelector(`rect[data-rect="${svgId}"]`) || document.getElementById(
+                         svgId);
+
+                     let isKosong = false;
+
+                     if (rectElement) {
+                         if (slotInfo && slotInfo.status_slot === 'Terisi') {
+                             rectElement.setAttribute('fill', COLOR_OCCUPIED);
+                         } else if (slotInfo && slotInfo.status_slot === 'Kosong') {
+                             rectElement.setAttribute('fill', COLOR_AVAILABLE);
+                             isKosong = true;
+                         } else {
+                             rectElement.setAttribute('fill', COLOR_DEFAULT);
+                         }
+                     }
+
+                     // --- LOGIKA NAVIGASI PATH (PANAH) ---
+                     // Hanya jalankan jika:
+                     // 1. Slot ini Kosong
+                     // 2. DAN belum menemukan slot kosong sebelumnya (nearestPathFound masih false)
+                     if (isKosong && !nearestPathFound) {
+
+                         // Cari elemen path yang sesuai
+                         const pathElement = document.querySelector(`path[data-path="${svgId}"]`);
+
+                         if (pathElement) {
+                             // Nyalakan Path ini
+                             pathElement.classList.add('path-active');
+
+                             // Set flag jadi true agar loop berikutnya tidak menyalakan path lagi
+                             nearestPathFound = true;
+
+                             console.log(`Mengarahkan ke slot terdekat: ${svgId}`);
+                         }
                      }
                  }
 
+                 // Opsional: Jika penuh semua (nearestPathFound tetep false),
+                 // mungkin mau menampilkan pesan "PARKIR PENUH" di HTML
+
              } catch (error) {
-                 console.error("Gagal mengambil data parkir:", error);
+                 console.error("Error fetch data:", error);
              }
          }
 
-         // Jalankan pertama kali saat load
+         // Jalankan logika
          document.addEventListener('DOMContentLoaded', () => {
              updateParkingStatus();
-
-             // Jalankan ulang setiap 2 detik (2000 ms)
              setInterval(updateParkingStatus, 2000);
          });
      </script>

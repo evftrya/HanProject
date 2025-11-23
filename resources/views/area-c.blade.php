@@ -23,6 +23,19 @@
              }
          }
      </script>
+     <style>
+         path[data-path] {
+             opacity: 0;
+             transition: opacity 0.5s ease-in-out;
+         }
+
+         path.path-active {
+             opacity: 1 !important;
+             stroke: #20FD2F !important;
+             stroke-width: 3px;
+             filter: drop-shadow(0 0 2px #20FD2F);
+         }
+     </style>
  </head>
 
  <body class="bg-[#FFFFFF] flex flex-col min-h-screen">
@@ -219,10 +232,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V69.6612L225 65.5L91 60.5V39" stroke="#20FD2F" data-rect="1"
+                                 <path d="M374 111V69.6612L225 65.5L91 60.5V39" stroke="#D1D5DB" data-rect="1"
                                      data-path="C45">
                                  </path>
-                                 <rect x="83.9844" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="83.9844" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C45"></rect>
                                  <text x="90.4762" y="34.8689" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C45</text>
@@ -231,9 +244,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V69.6612L107 59V39" stroke="#20FD2F" data-rect="2"
+                                 <path d="M374 111V69.6612L107 59V39" stroke="#D1D5DB" data-rect="2"
                                      data-path="C43"></path>
-                                 <rect x="100.211" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="100.211" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C43"></rect>
                                  <text x="106.7028" y="34.8689" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C43</text>
@@ -241,9 +254,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V69.6612L123 58.5V39" stroke="#20FD2F" data-rect="3"
+                                 <path d="M374 111V69.6612L123 58.5V39" stroke="#D1D5DB" data-rect="3"
                                      data-path="C41"></path>
-                                 <rect x="116.445" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="116.445" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C41"></rect>
                                  <text x="122.9368" y="34.8689" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C41</text>
@@ -251,9 +264,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V69.6612L140 61V39" stroke="#20FD2F" data-rect="4"
+                                 <path d="M374 111V69.6612L140 61V39" stroke="#D1D5DB" data-rect="4"
                                      data-path="C39"></path>
-                                 <rect x="132.672" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="132.672" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C39"></rect>
                                  <text x="139.1630" y="34.8689" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C39</text>
@@ -261,9 +274,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V69.6612L156 61V39" stroke="#20FD2F" data-rect="5"
+                                 <path d="M374 111V69.6612L156 61V39" stroke="#D1D5DB" data-rect="5"
                                      data-path="C37"></path>
-                                 <rect x="148.898" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="148.898" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C37"></rect>
                                  <text x="155.3890" y="34.8689" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C37</text>
@@ -271,9 +284,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V69.6612H185V39" stroke="#20FD2F" data-rect="6" data-path="C25">
+                                 <path d="M374 111V69.6612H185V39" stroke="#D1D5DB" data-rect="6" data-path="C25">
                                  </path>
-                                 <rect x="178.117" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="178.117" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C25"></rect>
                                  <text x="184.6090" y="34.8689" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C25</text>
@@ -281,9 +294,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V69.6612H201V39" stroke="#20FD2F" data-rect="7" data-path="C23">
+                                 <path d="M374 111V69.6612H201V39" stroke="#D1D5DB" data-rect="7" data-path="C23">
                                  </path>
-                                 <rect x="194.344" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="194.344" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C23"></rect>
                                  <text x="200.8350" y="34.8689" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C23</text>
@@ -291,9 +304,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V69.6612H218V39" stroke="#20FD2F" data-rect="8" data-path="C21">
+                                 <path d="M374 111V69.6612H218V39" stroke="#D1D5DB" data-rect="8" data-path="C21">
                                  </path>
-                                 <rect x="210.578" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="210.578" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C21"></rect>
                                  <text x="217.0690" y="34.8689" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C21</text>
@@ -301,9 +314,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V69.6612H234V39" stroke="#20FD2F" data-rect="9" data-path="C19">
+                                 <path d="M374 111V69.6612H234V39" stroke="#D1D5DB" data-rect="9" data-path="C19">
                                  </path>
-                                 <rect x="226.805" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="226.805" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C19"></rect>
                                  <text x="233.2970" y="34.8689" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C19</text>
@@ -311,9 +324,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V69.6612H250V39" stroke="#20FD2F" data-rect="10" data-path="C16">
+                                 <path d="M374 111V69.6612H250V39" stroke="#D1D5DB" data-rect="10" data-path="C16">
                                  </path>
-                                 <rect x="243.039" y="22.291" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="243.039" y="22.291" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C16"></rect>
                                  <text x="249.5310" y="34.8689" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C16</text>
@@ -321,9 +334,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V70L91 65V85" stroke="#20FD2F" data-rect="11" data-path="C44">
+                                 <path d="M374 111V70L91 65V85" stroke="#D1D5DB" data-rect="11" data-path="C44">
                                  </path>
-                                 <rect x="83.9844" y="74.2256" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="83.9844" y="74.2256" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C44"></rect>
                                  <text x="90.4762" y="86.8040" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C44</text>
@@ -331,9 +344,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V70L107 65.5V85" stroke="#20FD2F" data-rect="12" data-path="C42">
+                                 <path d="M374 111V70L107 65.5V85" stroke="#D1D5DB" data-rect="12" data-path="C42">
                                  </path>
-                                 <rect x="100.211" y="74.2261" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="100.211" y="74.2261" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C42"></rect>
                                  <text x="106.7028" y="86.8040" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C42</text>
@@ -341,9 +354,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V70L123 65.5V85" stroke="#20FD2F" data-rect="13" data-path="C40">
+                                 <path d="M374 111V70L123 65.5V85" stroke="#D1D5DB" data-rect="13" data-path="C40">
                                  </path>
-                                 <rect x="116.445" y="74.2261" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="116.445" y="74.2261" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C40"></rect>
                                  <text x="122.9368" y="86.8040" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C40</text>
@@ -351,9 +364,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V70L140 66V85" stroke="#20FD2F" data-rect="14" data-path="C38">
+                                 <path d="M374 111V70L140 66V85" stroke="#D1D5DB" data-rect="14" data-path="C38">
                                  </path>
-                                 <rect x="132.672" y="74.2261" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="132.672" y="74.2261" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C38"></rect>
                                  <text x="139.1630" y="86.8040" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C38</text>
@@ -361,9 +374,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V70L156 67V85" stroke="#20FD2F" data-rect="15" data-path="C36">
+                                 <path d="M374 111V70L156 67V85" stroke="#D1D5DB" data-rect="15" data-path="C36">
                                  </path>
-                                 <rect x="148.898" y="74.2261" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="148.898" y="74.2261" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C36"></rect>
                                  <text x="155.3890" y="86.8040" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C36</text>
@@ -371,8 +384,8 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V70H185V85" stroke="#20FD2F" data-rect="16" data-path="C24"></path>
-                                 <rect x="178.117" y="79.0947" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <path d="M374 111V70H185V85" stroke="#D1D5DB" data-rect="16" data-path="C24"></path>
+                                 <rect x="178.117" y="79.0947" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C24"></rect>
                                  <text x="184.6090" y="91.6736" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C24</text>
@@ -380,8 +393,8 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V70H201V85" stroke="#20FD2F" data-rect="17" data-path="C22"></path>
-                                 <rect x="194.344" y="79.0947" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <path d="M374 111V70H201V85" stroke="#D1D5DB" data-rect="17" data-path="C22"></path>
+                                 <rect x="194.344" y="79.0947" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C22"></rect>
                                  <text x="200.8350" y="91.6736" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C22</text>
@@ -389,8 +402,8 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V70H218V85" stroke="#20FD2F" data-rect="18" data-path="C20"></path>
-                                 <rect x="210.578" y="79.0947" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <path d="M374 111V70H218V85" stroke="#D1D5DB" data-rect="18" data-path="C20"></path>
+                                 <rect x="210.578" y="79.0947" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C20"></rect>
                                  <text x="217.0690" y="91.6736" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C20</text>
@@ -398,8 +411,8 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V70H234V85" stroke="#20FD2F" data-rect="19" data-path="C18"></path>
-                                 <rect x="226.805" y="79.0947" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <path d="M374 111V70H234V85" stroke="#D1D5DB" data-rect="19" data-path="C18"></path>
+                                 <rect x="226.805" y="79.0947" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C18"></rect>
                                  <text x="233.2970" y="91.6736" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C18</text>
@@ -407,8 +420,8 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V70H249V85" stroke="#20FD2F" data-rect="20" data-path="C17"></path>
-                                 <rect x="243.039" y="79.0947" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <path d="M374 111V70H249V85" stroke="#D1D5DB" data-rect="20" data-path="C17"></path>
+                                 <rect x="243.039" y="79.0947" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C17"></rect>
                                  <text x="249.5310" y="91.6736" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C17</text>
@@ -416,8 +429,8 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V70H271V85" stroke="#20FD2F" data-rect="21" data-path="C15"></path>
-                                 <rect x="264.133" y="79.0947" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <path d="M374 111V70H271V85" stroke="#D1D5DB" data-rect="21" data-path="C15"></path>
+                                 <rect x="264.133" y="79.0947" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C15"></rect>
                                  <text x="270.625" y="91.6736" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C15</text>
@@ -425,8 +438,8 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V70H287V85" stroke="#20FD2F" data-rect="22" data-path="C12"></path>
-                                 <rect x="280.359" y="79.0947" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <path d="M374 111V70H287V85" stroke="#D1D5DB" data-rect="22" data-path="C12"></path>
+                                 <rect x="280.359" y="79.0947" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C12"></rect>
                                  <text x="286.851" y="91.6736" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C12</text>
@@ -434,8 +447,8 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V70H304V85" stroke="#20FD2F" data-rect="23" data-path="C10"></path>
-                                 <rect x="296.594" y="79.0947" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <path d="M374 111V70H304V85" stroke="#D1D5DB" data-rect="23" data-path="C10"></path>
+                                 <rect x="296.594" y="79.0947" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C10"></rect>
                                  <text x="303.086" y="91.6736" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C10</text>
@@ -443,8 +456,8 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V70H319V85" stroke="#20FD2F" data-rect="24" data-path="C8"></path>
-                                 <rect x="312.82" y="79.0947" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <path d="M374 111V70H319V85" stroke="#D1D5DB" data-rect="24" data-path="C8"></path>
+                                 <rect x="312.82" y="79.0947" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C8"></rect>
                                  <text x="319.312" y="91.6736" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C8</text>
@@ -452,8 +465,8 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V70H336V85" stroke="#20FD2F" data-rect="25" data-path="C6"></path>
-                                 <rect x="329.055" y="79.0947" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <path d="M374 111V70H336V85" stroke="#D1D5DB" data-rect="25" data-path="C6"></path>
+                                 <rect x="329.055" y="79.0947" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C6"></rect>
                                  <text x="335.547" y="91.6736" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C6</text>
@@ -464,11 +477,11 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V79H676V91.5H840L884.5 107.5H1077.5" stroke="#20FD2F"
+                                 <path d="M374.5 111V79H676V91.5H840L884.5 107.5H1077.5" stroke="#D1D5DB"
                                      data-rect="80" data-path="C70">
                                  </path>
                                  <rect x="1094.33" y="99.3975" width="12.9836" height="25.1557"
-                                     transform="rotate(90.0373 1094.33 99.3975)" fill="#A8CB8D" data-rect="C70">
+                                     transform="rotate(90.0373 1094.33 99.3975)" fill="#D1D5DB" data-rect="C70">
                                  </rect>
                                  <text x="1082.33" y="105.3975" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C70</text>
@@ -476,10 +489,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1079 123" stroke="#20FD2F"
+                                 <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1079 123" stroke="#D1D5DB"
                                      data-rect="81" data-path="C71"></path>
                                  <rect x="1094.31" y="115.627" width="12.9836" height="25.1557"
-                                     transform="rotate(90.0373 1094.31 115.627)" fill="#A8CB8D" data-rect="C71">
+                                     transform="rotate(90.0373 1094.31 115.627)" fill="#D1D5DB" data-rect="C71">
                                  </rect>
                                  <text x="1082.31" y="121.627" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C71</text>
@@ -487,10 +500,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1077.5 139.5" stroke="#20FD2F"
+                                 <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1077.5 139.5" stroke="#D1D5DB"
                                      data-rect="82" data-path="C72"></path>
                                  <rect x="1094.3" y="131.856" width="12.9836" height="25.1557"
-                                     transform="rotate(90.0373 1094.3 131.856)" fill="#A8CB8D" data-rect="C72">
+                                     transform="rotate(90.0373 1094.3 131.856)" fill="#D1D5DB" data-rect="C72">
                                  </rect>
                                  <text x="1082.3" y="137.856" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C72</text>
@@ -498,10 +511,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1076.5 155" stroke="#20FD2F"
+                                 <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1076.5 155" stroke="#D1D5DB"
                                      data-rect="83" data-path="C73"></path>
                                  <rect x="1094.29" y="148.086" width="12.9836" height="25.1557"
-                                     transform="rotate(90.0373 1094.29 148.086)" fill="#A8CB8D" data-rect="C73">
+                                     transform="rotate(90.0373 1094.29 148.086)" fill="#D1D5DB" data-rect="C73">
                                  </rect>
                                  <text x="1082.29" y="154.086" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C73</text>
@@ -509,10 +522,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1074 172" stroke="#20FD2F"
+                                 <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1074 172" stroke="#D1D5DB"
                                      data-rect="84" data-path="C74"></path>
                                  <rect x="1094.28" y="164.315" width="12.9836" height="25.1557"
-                                     transform="rotate(90.0373 1094.28 164.315)" fill="#A8CB8D" data-rect="C74">
+                                     transform="rotate(90.0373 1094.28 164.315)" fill="#D1D5DB" data-rect="C74">
                                  </rect>
                                  <text x="1082.28" y="170.315" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C74</text>
@@ -520,11 +533,11 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1016.5 195H1075" stroke="#20FD2F"
+                                 <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1016.5 195H1075" stroke="#D1D5DB"
                                      data-rect="85" data-path="C75">
                                  </path>
                                  <rect x="1094.33" y="187.037" width="12.9836" height="25.1557"
-                                     transform="rotate(90.0373 1094.33 187.037)" fill="#A8CB8D" data-rect="C75">
+                                     transform="rotate(90.0373 1094.33 187.037)" fill="#D1D5DB" data-rect="C75">
                                  </rect>
                                  <text x="1082.33" y="193.037" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C75</text>
@@ -533,9 +546,9 @@
 
                              <g class="clickable">
                                  <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1016.5 195L1076.5 211"
-                                     stroke="#20FD2F" data-rect="86" data-path="C76"></path>
+                                     stroke="#D1D5DB" data-rect="86" data-path="C76"></path>
                                  <rect x="1094.31" y="203.267" width="12.9836" height="25.1557"
-                                     transform="rotate(90.0373 1094.31 203.267)" fill="#A8CB8D" data-rect="C76">
+                                     transform="rotate(90.0373 1094.31 203.267)" fill="#D1D5DB" data-rect="C76">
                                  </rect>
                                  <text x="1082.31" y="209.267" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C76</text>
@@ -543,11 +556,11 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1036.5 226.5H1076.5" stroke="#20FD2F"
+                                 <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1036.5 226.5H1076.5" stroke="#D1D5DB"
                                      data-rect="87" data-path="C77">
                                  </path>
                                  <rect x="1094.3" y="219.496" width="12.9836" height="25.1557"
-                                     transform="rotate(90.0373 1094.3 219.496)" fill="#A8CB8D" data-rect="C77">
+                                     transform="rotate(90.0373 1094.3 219.496)" fill="#D1D5DB" data-rect="C77">
                                  </rect>
                                  <text x="1082.3" y="225.496" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C77</text>
@@ -555,11 +568,11 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1047.5 242.5H1075.5" stroke="#20FD2F"
+                                 <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1047.5 242.5H1075.5" stroke="#D1D5DB"
                                      data-rect="88" data-path="C78">
                                  </path>
                                  <rect x="1094.29" y="235.726" width="12.9836" height="25.1557"
-                                     transform="rotate(90.0373 1094.29 235.726)" fill="#A8CB8D" data-rect="C78">
+                                     transform="rotate(90.0373 1094.29 235.726)" fill="#D1D5DB" data-rect="C78">
                                  </rect>
                                  <text x="1082.29" y="241.726" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C78</text>
@@ -567,11 +580,11 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1061 259.5H1077.5" stroke="#20FD2F"
+                                 <path d="M374.5 111V79H676V91.5H840L884.5 107.5L1061 259.5H1077.5" stroke="#D1D5DB"
                                      data-rect="89" data-path="C79">
                                  </path>
                                  <rect x="1094.28" y="251.955" width="12.9836" height="25.1557"
-                                     transform="rotate(90.0373 1094.28 251.955)" fill="#A8CB8D" data-rect="C79">
+                                     transform="rotate(90.0373 1094.28 251.955)" fill="#D1D5DB" data-rect="C79">
                                  </rect>
                                  <text x="1082.28" y="257.955" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C79</text>
@@ -580,10 +593,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M375 111.5V78H677V91H819L879 111.5H901V83" stroke="#20FD2F" data-rect="36"
+                                 <path d="M375 111.5V78H677V91H819L879 111.5H901V83" stroke="#D1D5DB" data-rect="36"
                                      data-path="C60">
                                  </path>
-                                 <rect x="893.836" y="70.168" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="893.836" y="70.168" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C60"></rect>
                                  <text x="900.328" y="82.745" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C60</text>
@@ -591,10 +604,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M375 111.5V78H677V91H819L879 111.5H918V87.5" stroke="#20FD2F" data-rect="37"
+                                 <path d="M375 111.5V78H677V91H819L879 111.5H918V87.5" stroke="#D1D5DB" data-rect="37"
                                      data-path="C61">
                                  </path>
-                                 <rect x="910.062" y="70.168" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="910.062" y="70.168" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C61"></rect>
                                  <text x="916.554" y="82.745" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C61</text>
@@ -602,10 +615,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M375 111.5V78H677V91H819L879 111.5H933.5V88.5" stroke="#20FD2F"
+                                 <path d="M375 111.5V78H677V91H819L879 111.5H933.5V88.5" stroke="#D1D5DB"
                                      data-rect="38" data-path="C62">
                                  </path>
-                                 <rect x="926.297" y="70.168" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="926.297" y="70.168" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C62"></rect>
                                  <text x="932.789" y="82.745" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C62</text>
@@ -613,10 +626,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M375 111.5V78H677V91H819L879 111.5H949V91" stroke="#20FD2F" data-rect="39"
+                                 <path d="M375 111.5V78H677V91H819L879 111.5H949V91" stroke="#D1D5DB" data-rect="39"
                                      data-path="C63">
                                  </path>
-                                 <rect x="942.523" y="70.168" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="942.523" y="70.168" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C63"></rect>
                                  <text x="949.015" y="82.745" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C63</text>
@@ -624,10 +637,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M375 111.5V78H677V91H819L879 111.5H966V91" stroke="#20FD2F" data-rect="40"
+                                 <path d="M375 111.5V78H677V91H819L879 111.5H966V91" stroke="#D1D5DB" data-rect="40"
                                      data-path="C64">
                                  </path>
-                                 <rect x="958.758" y="70.168" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="958.758" y="70.168" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C64"></rect>
                                  <text x="965.250" y="82.745" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C64</text>
@@ -635,10 +648,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111.5V78.5H676.5V92H821L954.5 178L946 190.5" stroke="#20FD2F"
+                                 <path d="M374.5 111.5V78.5H676.5V92H821L954.5 178L946 190.5" stroke="#D1D5DB"
                                      data-rect="46" data-path="C65"></path>
                                  <rect x="943" y="182" width="12.9836" height="25.1557"
-                                     transform="rotate(33.8077 943 182)" fill="#A8CB8D" data-rect="C65"></rect>
+                                     transform="rotate(33.8077 943 182)" fill="#D1D5DB" data-rect="C65"></rect>
                                  <text x="944.492" y="198.578" transform="rotate(33.8077 949.492 194.578)"
                                      text-anchor="middle" dominant-baseline="middle" font-size="5"
                                      fill="black">C65</text>
@@ -646,10 +659,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111.5V78.5H676.5V92H821L841.5 106L831 122.5" stroke="#20FD2F"
+                                 <path d="M374.5 111.5V78.5H676.5V92H821L841.5 106L831 122.5" stroke="#D1D5DB"
                                      data-rect="42" data-path="C56"></path>
                                  <rect x="828" y="114.836" width="12.9836" height="25.1557"
-                                     transform="rotate(30.1533 828 114.836)" fill="#A8CB8D" data-rect="C56"></rect>
+                                     transform="rotate(30.1533 828 114.836)" fill="#D1D5DB" data-rect="C56"></rect>
                                  <text x="829.492" y="131.414" transform="rotate(30.1533 834.492 127.414)"
                                      text-anchor="middle" dominant-baseline="middle" font-size="5"
                                      fill="black">C56</text>
@@ -657,11 +670,11 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111.5V78.5H676.5V92H821L857.5 112.5L845.5 130.5" stroke="#20FD2F"
+                                 <path d="M374.5 111.5V78.5H676.5V92H821L857.5 112.5L845.5 130.5" stroke="#D1D5DB"
                                      data-rect="43" data-path="C57">
                                  </path>
                                  <rect x="842.031" y="122.988" width="12.9836" height="25.1557"
-                                     transform="rotate(30.1533 842.031 122.988)" fill="#A8CB8D" data-rect="C57">
+                                     transform="rotate(30.1533 842.031 122.988)" fill="#D1D5DB" data-rect="C57">
                                  </rect>
                                  <text x="843.523" y="139.566" transform="rotate(30.1533 848.523 135.566)"
                                      text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -670,10 +683,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111.5V78.5H676.5V92H821L870.5 120L859.5 138.5" stroke="#20FD2F"
+                                 <path d="M374.5 111.5V78.5H676.5V92H821L870.5 120L859.5 138.5" stroke="#D1D5DB"
                                      data-rect="44" data-path="C58"></path>
                                  <rect x="856.07" y="131.141" width="12.9836" height="25.1557"
-                                     transform="rotate(30.1533 856.07 131.141)" fill="#A8CB8D" data-rect="C58">
+                                     transform="rotate(30.1533 856.07 131.141)" fill="#D1D5DB" data-rect="C58">
                                  </rect>
                                  <text x="857.562" y="147.719" transform="rotate(30.1533 862.562 143.719)"
                                      text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -682,10 +695,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111.5V78.5H676.5V92H821L884.5 127.5L872 148.5" stroke="#20FD2F"
+                                 <path d="M374.5 111.5V78.5H676.5V92H821L884.5 127.5L872 148.5" stroke="#D1D5DB"
                                      data-rect="45" data-path="C59"></path>
                                  <rect x="870.102" y="139.293" width="12.9836" height="25.1557"
-                                     transform="rotate(30.1533 870.102 139.293)" fill="#A8CB8D" data-rect="C59">
+                                     transform="rotate(30.1533 870.102 139.293)" fill="#D1D5DB" data-rect="C59">
                                  </rect>
                                  <text x="871.594" y="155.871" transform="rotate(30.1533 876.594 151.871)"
                                      text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -694,10 +707,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111.5V78.5H676.5V92H821L828.5 96L817 114.5" stroke="#20FD2F"
+                                 <path d="M374.5 111.5V78.5H676.5V92H821L828.5 96L817 114.5" stroke="#D1D5DB"
                                      data-rect="41" data-path="C55"></path>
                                  <rect x="813.969" y="106.683" width="12.9836" height="25.1557"
-                                     transform="rotate(30.1533 813.969 106.683)" fill="#A8CB8D" data-rect="C55">
+                                     transform="rotate(30.1533 813.969 106.683)" fill="#D1D5DB" data-rect="C55">
                                  </rect>
                                  <text x="815.460" y="123.261" transform="rotate(30.1533 820.460 119.261)"
                                      text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -707,10 +720,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111.5V78.5H676.5V92H821L968.5 187.5L959 200" stroke="#20FD2F"
+                                 <path d="M374.5 111.5V78.5H676.5V92H821L968.5 187.5L959 200" stroke="#D1D5DB"
                                      data-rect="47" data-path="C66"></path>
                                  <rect x="956.484" y="191.031" width="12.9836" height="25.1557"
-                                     transform="rotate(33.8077 956.484 191.031)" fill="#A8CB8D" data-rect="C66">
+                                     transform="rotate(33.8077 956.484 191.031)" fill="#D1D5DB" data-rect="C66">
                                  </rect>
                                  <text x="957.976" y="207.609" transform="rotate(33.8077 962.976 203.609)"
                                      text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -720,10 +733,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111.5V78.5H676.5V92H821L980.5 196.5L973 207.5" stroke="#20FD2F"
+                                 <path d="M374.5 111.5V78.5H676.5V92H821L980.5 196.5L973 207.5" stroke="#D1D5DB"
                                      data-rect="48" data-path="C67"></path>
                                  <rect x="969.969" y="200.061" width="12.9836" height="25.1557"
-                                     transform="rotate(33.8077 969.969 200.061)" fill="#A8CB8D" data-rect="C67">
+                                     transform="rotate(33.8077 969.969 200.061)" fill="#D1D5DB" data-rect="C67">
                                  </rect>
                                  <text x="971.460" y="216.639" transform="rotate(33.8077 976.460 212.639)"
                                      text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -733,10 +746,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111.5V78.5H676.5V92H821L994 206L986.5 216" stroke="#20FD2F"
+                                 <path d="M374.5 111.5V78.5H676.5V92H821L994 206L986.5 216" stroke="#D1D5DB"
                                      data-rect="49" data-path="C68"></path>
                                  <rect x="983.453" y="209.091" width="12.9836" height="25.1557"
-                                     transform="rotate(33.8077 983.453 209.091)" fill="#A8CB8D" data-rect="C68">
+                                     transform="rotate(33.8077 983.453 209.091)" fill="#D1D5DB" data-rect="C68">
                                  </rect>
                                  <text x="984.945" y="225.669" transform="rotate(33.8077 989.945 221.669)"
                                      text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -746,10 +759,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111.5V78.5H676.5V92H821L1008.5 216L1001 224.5" stroke="#20FD2F"
+                                 <path d="M374.5 111.5V78.5H676.5V92H821L1008.5 216L1001 224.5" stroke="#D1D5DB"
                                      data-rect="50" data-path="C69"></path>
                                  <rect x="996.938" y="218.121" width="12.9836" height="25.1557"
-                                     transform="rotate(33.8077 996.938 218.121)" fill="#A8CB8D" data-rect="C69">
+                                     transform="rotate(33.8077 996.938 218.121)" fill="#D1D5DB" data-rect="C69">
                                  </rect>
                                  <text x="998.429" y="234.699" transform="rotate(33.8077 1003.429 230.699)"
                                      text-anchor="middle" dominant-baseline="middle" font-size="5"
@@ -758,10 +771,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V79.1684H611V91.5H730.5V63" stroke="#20FD2F" data-rect="51"
+                                 <path d="M374.5 111V79.1684H611V91.5H730.5V63" stroke="#D1D5DB" data-rect="51"
                                      data-path="C50">
                                  </path>
-                                 <rect x="723.43" y="52.3154" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="723.43" y="52.3154" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C50"></rect>
                                  <text x="729.92" y="64.89" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C50</text>
@@ -769,10 +782,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V79.1684H621.629V91.5H746.5V63" stroke="#20FD2F" data-rect="52"
+                                 <path d="M374.5 111V79.1684H621.629V91.5H746.5V63" stroke="#D1D5DB" data-rect="52"
                                      data-path="C51">
                                  </path>
-                                 <rect x="739.656" y="52.3154" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="739.656" y="52.3154" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C51"></rect>
                                  <text x="746.15" y="64.89" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C51</text>
@@ -780,10 +793,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V79.1684H631.594V91.5H761.5V63" stroke="#20FD2F" data-rect="53"
+                                 <path d="M374.5 111V79.1684H631.594V91.5H761.5V63" stroke="#D1D5DB" data-rect="53"
                                      data-path="C52">
                                  </path>
-                                 <rect x="755.891" y="52.3154" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="755.891" y="52.3154" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C52"></rect>
                                  <text x="762.38" y="64.89" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C52</text>
@@ -791,10 +804,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V79.1684H643.552V91.5H779.5V63" stroke="#20FD2F" data-rect="54"
+                                 <path d="M374.5 111V79.1684H643.552V91.5H779.5V63" stroke="#D1D5DB" data-rect="54"
                                      data-path="C53">
                                  </path>
-                                 <rect x="772.117" y="52.3154" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="772.117" y="52.3154" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C53"></rect>
                                  <text x="778.61" y="64.89" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C53</text>
@@ -802,10 +815,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V79.1684H654.181V91.5H795.5V63" stroke="#20FD2F" data-rect="55"
+                                 <path d="M374.5 111V79.1684H654.181V91.5H795.5V63" stroke="#D1D5DB" data-rect="55"
                                      data-path="C54">
                                  </path>
-                                 <rect x="788.344" y="52.3154" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="788.344" y="52.3154" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C54"></rect>
                                  <text x="794.85" y="64.89" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C54</text>
@@ -817,9 +830,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V69.6612H272V50" stroke="#20FD2F" data-rect="56" data-path="C14">
+                                 <path d="M374 111V69.6612H272V50" stroke="#D1D5DB" data-rect="56" data-path="C14">
                                  </path>
-                                 <rect x="264.133" y="32.0283" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="264.133" y="32.0283" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C14"></rect>
                                  <text x="270.625" y="44.606" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C14</text>
@@ -827,9 +840,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V69.6612H288V50" stroke="#20FD2F" data-rect="57" data-path="C13">
+                                 <path d="M374 111V69.6612H288V50" stroke="#D1D5DB" data-rect="57" data-path="C13">
                                  </path>
-                                 <rect x="280.359" y="32.0283" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="280.359" y="32.0283" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C13"></rect>
                                  <text x="286.851" y="44.606" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C13</text>
@@ -837,9 +850,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V69.6612H303V50" stroke="#20FD2F" data-rect="58" data-path="C11">
+                                 <path d="M374 111V69.6612H303V50" stroke="#D1D5DB" data-rect="58" data-path="C11">
                                  </path>
-                                 <rect x="296.594" y="32.0283" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="296.594" y="32.0283" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C11"></rect>
                                  <text x="303.086" y="44.606" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C11</text>
@@ -847,9 +860,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V69.6612H319V50" stroke="#20FD2F" data-rect="59" data-path="C9">
+                                 <path d="M374 111V69.6612H319V50" stroke="#D1D5DB" data-rect="59" data-path="C9">
                                  </path>
-                                 <rect x="312.82" y="32.0283" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="312.82" y="32.0283" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C9"></rect>
                                  <text x="319.312" y="44.606" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C9</text>
@@ -860,9 +873,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 110.5V69.5H334.5V50" stroke="#20FD2F" data-rect="60" data-path="C7">
+                                 <path d="M374 110.5V69.5H334.5V50" stroke="#D1D5DB" data-rect="60" data-path="C7">
                                  </path>
-                                 <rect x="329.055" y="32.0283" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="329.055" y="32.0283" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C7"></rect>
                                  <text x="335.547" y="44.606" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C7</text>
@@ -870,26 +883,26 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 110.5V45.5" stroke="#20FD2F" data-rect="61" data-path="C1"></path>
-                                 <rect x="367.195" y="27.1602" width="12.9836" height="25.1557" fill="#A8CB8D"
-                                     data-rect="C1"></rect>
+                                 <path d="M374 110.5V45.5" stroke="#D1D5DB" data-rect="61" data-path="C1"></path>
+                                 <rect id="C1" x="367.195" y="27.1602" width="12.9836" height="25.1557"
+                                     fill="#D1D5DB" data-rect="C1"></rect>
                                  <text x="373.687" y="39.738" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C1</text>
                              </g>
 
 
                              <g class="clickable">
-                                 <path d="M374 110.5L391 45" stroke="#20FD2F" data-rect="62" data-path="C2"></path>
-                                 <rect x="383.422" y="27.1602" width="12.9836" height="25.1557" fill="#A8CB8D"
-                                     data-rect="C2"></rect>
+                                 <path d="M374 110.5L391 45" stroke="#D1D5DB" data-rect="62" data-path="C2"></path>
+                                 <rect id="C2" x="383.422" y="27.1602" width="12.9836" height="25.1557"
+                                     fill="#D1D5DB" data-rect="C2"></rect>
                                  <text x="389.914" y="39.738" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C2</text>
                              </g>
 
 
                              <g class="clickable">
-                                 <path d="M374 110.5L408 47" stroke="#20FD2F" data-rect="63" data-path="C3"></path>
-                                 <rect x="399.656" y="27.1602" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <path d="M374 110.5L408 47" stroke="#D1D5DB" data-rect="63" data-path="C3"></path>
+                                 <rect x="399.656" y="27.1602" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C3"></rect>
                                  <text x="406.148" y="39.738" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C3</text>
@@ -897,9 +910,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 110.5L422.5 70.5L422.5 47" stroke="#20FD2F" data-rect="64"
+                                 <path d="M374 110.5L422.5 70.5L422.5 47" stroke="#D1D5DB" data-rect="64"
                                      data-path="C4"></path>
-                                 <rect x="415.883" y="27.1602" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="415.883" y="27.1602" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C4"></rect>
                                  <text x="422.375" y="39.738" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C4</text>
@@ -907,9 +920,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 110.5L440 84.5L440 45" stroke="#20FD2F" data-rect="65" data-path="C5">
+                                 <path d="M374 110.5L440 84.5L440 45" stroke="#D1D5DB" data-rect="65" data-path="C5">
                                  </path>
-                                 <rect x="432.117" y="27.1602" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="432.117" y="27.1602" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C5"></rect>
                                  <text x="438.609" y="39.738" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C5</text>
@@ -917,8 +930,8 @@
 
                              <g class="clickable">
                                  <path d="M373.998 110.503L374 78.9992L528.998 79.0026L528.998 60.0025"
-                                     stroke="#20FD2F" data-rect="66" data-path="C26"></path>
-                                 <rect x="522.188" y="45.0127" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                     stroke="#D1D5DB" data-rect="66" data-path="C26"></path>
+                                 <rect x="522.188" y="45.0127" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C26"></rect>
                                  <text x="528.68" y="57.59" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C26</text>
@@ -926,9 +939,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 110.5V79H545V63" stroke="#20FD2F" data-rect="67" data-path="C28">
+                                 <path d="M374.5 110.5V79H545V63" stroke="#D1D5DB" data-rect="67" data-path="C28">
                                  </path>
-                                 <rect x="538.414" y="45.0127" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="538.414" y="45.0127" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C28"></rect>
                                  <text x="544.91" y="57.59" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C28</text>
@@ -936,9 +949,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V79.1684H561.5V63" stroke="#20FD2F" data-rect="68"
+                                 <path d="M374.5 111V79.1684H561.5V63" stroke="#D1D5DB" data-rect="68"
                                      data-path="C30"></path>
-                                 <rect x="554.648" y="45.0127" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="554.648" y="45.0127" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C30"></rect>
                                  <text x="561.14" y="57.59" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C30</text>
@@ -946,9 +959,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V79.1684H578.5V63" stroke="#20FD2F" data-rect="69"
+                                 <path d="M374.5 111V79.1684H578.5V63" stroke="#D1D5DB" data-rect="69"
                                      data-path="C32"></path>
-                                 <rect x="570.875" y="45.0127" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="570.875" y="45.0127" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C32"></rect>
                                  <text x="577.36" y="57.59" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C32</text>
@@ -956,9 +969,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V79.1684H593.5V63" stroke="#20FD2F" data-rect="70"
+                                 <path d="M374.5 111V79.1684H593.5V63" stroke="#D1D5DB" data-rect="70"
                                      data-path="C34"></path>
-                                 <rect x="587.102" y="45.0127" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="587.102" y="45.0127" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C34"></rect>
                                  <text x="593.59" y="57.59" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C34</text>
@@ -966,10 +979,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 110.502L374.002 78.9991L529 79.0025L528.998 93.5" stroke="#20FD2F"
+                                 <path d="M374 110.502L374.002 78.9991L529 79.0025L528.998 93.5" stroke="#D1D5DB"
                                      data-rect="71" data-path="C27">
                                  </path>
-                                 <rect x="522.188" y="86.3975" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="522.188" y="86.3975" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C27"></rect>
                                  <text x="528.68" y="98.97" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C27</text>
@@ -978,9 +991,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V78H545V94" stroke="#20FD2F" data-rect="72" data-path="C29">
+                                 <path d="M374.5 111V78H545V94" stroke="#D1D5DB" data-rect="72" data-path="C29">
                                  </path>
-                                 <rect x="538.414" y="86.3975" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="538.414" y="86.3975" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C29"></rect>
                                  <text x="544.91" y="98.97" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C29</text>
@@ -988,9 +1001,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V78H561.5V94" stroke="#20FD2F" data-rect="73" data-path="C31">
+                                 <path d="M374.5 111V78H561.5V94" stroke="#D1D5DB" data-rect="73" data-path="C31">
                                  </path>
-                                 <rect x="554.648" y="86.3975" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="554.648" y="86.3975" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C31"></rect>
                                  <text x="561.14" y="98.97" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C31</text>
@@ -998,9 +1011,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V78H578.5V94" stroke="#20FD2F" data-rect="74" data-path="C33">
+                                 <path d="M374.5 111V78H578.5V94" stroke="#D1D5DB" data-rect="74" data-path="C33">
                                  </path>
-                                 <rect x="570.875" y="86.3975" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="570.875" y="86.3975" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C33"></rect>
                                  <text x="577.36" y="98.97" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C33</text>
@@ -1008,9 +1021,9 @@
 
 
                              <g class="clickable">
-                                 <path d="M374.5 111V78H593.5V94" stroke="#20FD2F" data-rect="75" data-path="C35">
+                                 <path d="M374.5 111V78H593.5V94" stroke="#D1D5DB" data-rect="75" data-path="C35">
                                  </path>
-                                 <rect x="587.109" y="86.3975" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="587.109" y="86.3975" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C35"></rect>
                                  <text x="593.60" y="98.97" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C35</text>
@@ -1018,19 +1031,19 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V69.6612L225 65.5L61.5 56.5L7.5 40.5V17.5" stroke="#20FD2F"
+                                 <path d="M374 111V69.6612L225 65.5L61.5 56.5L7.5 40.5V17.5" stroke="#D1D5DB"
                                      data-rect="76" data-path="C49"></path>
-                                 <rect width="12.9836" height="25.1557" fill="#A8CB8D" data-rect="C49"></rect>
+                                 <rect width="12.9836" height="25.1557" fill="#D1D5DB" data-rect="C49"></rect>
                                  <text x="6.49" y="12.58" text-anchor="middle" dominant-baseline="middle"
                                      font-size="5" fill="black">C49</text>
                              </g>
 
 
                              <g class="clickable">
-                                 <path d="M374 111V69.6612L225 65.5L61.5 56.5L21 44V21" stroke="#20FD2F"
+                                 <path d="M374 111V69.6612L225 65.5L61.5 56.5L21 44V21" stroke="#D1D5DB"
                                      data-rect="77" data-path="C48">
                                  </path>
-                                 <rect x="15.9844" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="15.9844" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C48">
                                  </rect>
                                  <text x="22.48" y="12.58" text-anchor="middle" dominant-baseline="middle"
@@ -1039,10 +1052,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V69.6612L225 65.5L38.5 56.5V20.5" stroke="#20FD2F" data-rect="78"
+                                 <path d="M374 111V69.6612L225 65.5L38.5 56.5V20.5" stroke="#D1D5DB" data-rect="78"
                                      data-path="C47">
                                  </path>
-                                 <rect x="31.9688" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="31.9688" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C47">
                                  </rect>
                                  <text x="38.46" y="12.58" text-anchor="middle" dominant-baseline="middle"
@@ -1051,10 +1064,10 @@
 
 
                              <g class="clickable">
-                                 <path d="M374 111V69.6612L225 65.5L54 57.5V21" stroke="#20FD2F" data-rect="79"
+                                 <path d="M374 111V69.6612L225 65.5L54 57.5V21" stroke="#D1D5DB" data-rect="79"
                                      data-path="C46">
                                  </path>
-                                 <rect x="47.9531" width="12.9836" height="25.1557" fill="#A8CB8D"
+                                 <rect x="47.9531" width="12.9836" height="25.1557" fill="#D1D5DB"
                                      data-rect="C46">
                                  </rect>
                                  <text x="54.44" y="12.58" text-anchor="middle" dominant-baseline="middle"
@@ -1092,43 +1105,81 @@
          });
      </script>
      <script>
-         const AREA_NAME = 'Area_C';
-         const PREFIX_ID = 'C'; // SVG kamu pake ID="C1", "C2"...
-         const API_URL = `/status/${AREA_NAME}`;
+    // --- Konfigurasi Area C ---
+    const AREA_NAME = 'Area_C';
+    const PREFIX_ID = 'C';
+    const API_PREFIX = 'S';
+    const TOTAL_SLOTS = 80; // Area C slotnya banyak (sampai C79), kita set 80 biar aman
+    const API_URL = `/status/${AREA_NAME}`;
 
-         const COLOR_KOSONG = '#A8CC8D';
-         const COLOR_TERISI = '#DC2626';
+    // --- Definisi Warna ---
+    const COLOR_DEFAULT = '#D1D5DB';
+    const COLOR_AVAILABLE = '#A8CC8D';
+    const COLOR_OCCUPIED = '#DC2626';
 
-         async function updateParkingStatus() {
-             try {
-                 const response = await fetch(API_URL);
-                 const result = await response.json();
-                 if (!result[AREA_NAME]) return;
+    function resetPaths() {
+        const allPaths = document.querySelectorAll(`path[data-path^="${PREFIX_ID}"]`);
+        allPaths.forEach(path => {
+            path.classList.remove('path-active');
+        });
+    }
 
-                 const slots = result[AREA_NAME];
+    async function updateParkingStatus() {
+        try {
+            const response = await fetch(API_URL);
+            if (!response.ok) throw new Error("Gagal mengambil data");
+            const result = await response.json();
 
-                 for (const [key, value] of Object.entries(slots)) {
-                     // Logic ganti S1 -> C1
-                     const slotNumber = key.replace('S', '');
-                     const svgId = `${PREFIX_ID}${slotNumber}`;
+            const slotsData = result[AREA_NAME] || {};
 
-                     const element = document.getElementById(svgId);
-                     if (element) {
-                         const isOccupied = value.status_slot === 'Terisi';
-                         const newColor = isOccupied ? COLOR_TERISI : COLOR_KOSONG;
-                         element.setAttribute('fill', newColor);
-                     }
-                 }
-             } catch (error) {
-                 console.error("Error fetching Area C:", error);
-             }
-         }
+            resetPaths(); // Reset navigasi
 
-         document.addEventListener('DOMContentLoaded', () => {
-             updateParkingStatus();
-             setInterval(updateParkingStatus, 2000);
-         });
-     </script>
+            let nearestPathFound = false;
+
+            // Loop Priority (C1 -> C80)
+            for (let i = 1; i <= TOTAL_SLOTS; i++) {
+                const apiId = `${API_PREFIX}${i}`;
+                const svgId = `${PREFIX_ID}${i}`;
+
+                const slotInfo = slotsData[apiId];
+
+                // --- UPDATE WARNA ---
+                const rectElement = document.querySelector(`rect[data-rect="${svgId}"]`) || document.getElementById(svgId);
+                let isKosong = false;
+
+                if (rectElement) {
+                    if (slotInfo && slotInfo.status_slot === 'Terisi') {
+                        rectElement.setAttribute('fill', COLOR_OCCUPIED);
+                    } else if (slotInfo && slotInfo.status_slot === 'Kosong') {
+                        rectElement.setAttribute('fill', COLOR_AVAILABLE);
+                        isKosong = true;
+                    } else {
+                        rectElement.setAttribute('fill', COLOR_DEFAULT);
+                    }
+                }
+
+                // --- NAVIGASI ---
+                if (isKosong && !nearestPathFound) {
+                    const pathElement = document.querySelector(`path[data-path="${svgId}"]`);
+
+                    if (pathElement) {
+                        pathElement.classList.add('path-active');
+                        nearestPathFound = true; // Kunci, agar panah C berikutnya tidak nyala
+                        // console.log(`Navigasi Area C aktif ke: ${svgId}`);
+                    }
+                }
+            }
+
+        } catch (error) {
+            console.error("Error fetch Area C:", error);
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        updateParkingStatus();
+        setInterval(updateParkingStatus, 2000);
+    });
+</script>
  </body>
 
  </html>
