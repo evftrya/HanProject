@@ -60,7 +60,7 @@
   </header>
 
   <main class="px-10 flex flex-col flex-grow">
-    < class="flex flex-col border-b border-gray-400 justify-evenly items-center min-h-screen">
+    <div class="flex flex-col border-b border-gray-400 justify-evenly items-center min-h-screen">
         <h1 class="text-3xl text-center px-5">
             Pilih Area lahan parkir yang ingin dituju
         </h1>
