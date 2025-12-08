@@ -9,35 +9,37 @@ class ParkingLogicService
     /**
      * Fuzzifikasi input 'jarak'.
      * Mengembalikan derajat keanggotaan untuk "SangatDekat".
-     * [Asumsi]: 0-5cm = 1.0 (Sangat Dekat), 5-10cm = Linear turun, >=10cm = 0.0
+     * Rentang: [0, 10] = 1.0; [10, 15] = Linear turun; >= 15 = 0.0
      */
     private function fuzzifyJarak_SangatDekat(float $jarak): float
     {
-        if ($jarak <= 5) {
+        // Tuning 0 - 10 cm = 1.0 (Sangat Dekat), 10 - 15 cm = Linear turun, >= 15 cm = 0.0
+        if ($jarak <= 10) {
             return 1.0;
         }
-        if ($jarak >= 10) {
+        if ($jarak >= 15) { // Batas maksimal untuk dianggap "Sangat Dekat"
             return 0.0;
         }
-        // Fungsi linear turun antara 5 dan 10
-        return (10 - $jarak) / 5;
+        // Fungsi linear turun antara 10 dan 15
+        return (15 - $jarak) / 5; // (x2 - x) / (x2 - x1) -> (15 - jarak) / (15 - 10)
     }
 
     /**
      * Fuzzifikasi input 'jarak'.
      * Mengembalikan derajat keanggotaan untuk "Jauh".
-     * [Asumsi]: 0-5cm = 0.0, 5-10cm = Linear naik, >=10cm = 1.0
+     * Rentang: [0, 10] = 0.0; [10, 15] = Linear naik; >= 15 = 1.0
      */
     private function fuzzifyJarak_Jauh(float $jarak): float
     {
-        if ($jarak <= 5) {
+        // Tuning 0 - 10 cm = 0.0, 10 - 15 cm = Linear naik, >= 15 cm = 1.0
+        if ($jarak <= 10) {
             return 0.0;
         }
-        if ($jarak >= 10) {
+        if ($jarak >= 15) { // Batas minimal untuk dianggap "Jauh"
             return 1.0;
         }
-        // Fungsi linear naik antara 5 dan 10
-        return ($jarak - 5) / 5;
+        // Fungsi linear naik antara 10 dan 15
+        return ($jarak - 10) / 5; // (x - x1) / (x2 - x1) -> (jarak - 10) / (15 - 10)
     }
 
     /**

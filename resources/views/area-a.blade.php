@@ -6,14 +6,22 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <title>Document</title>
-     <script src="https://cdn.tailwindcss.com"></script>
-     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-     <script>
+     {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+     <link
+         href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700&family=DM+Sans:ital,wght@0,400;0,500;0,700&display=swap"
+         rel="stylesheet">
+     @vite('resources/css/app.css')
+     {{-- <script>
          tailwind.config = {
              theme: {
                  extend: {
                      fontFamily: {
                          'dm-sans': ['"DM Sans"', 'sans-serif'],
+                         'crimson-text': ['"Crimson Text"', 'serif'],
+
                      },
                      letterSpacing: {
                          // custom -8%
@@ -22,7 +30,7 @@
                  }
              }
          }
-     </script>
+     </script> --}}
      <style>
          /* Default: Sembunyikan semua path yang punya data-path */
          path[data-path] {
@@ -42,9 +50,10 @@
      </style>
  </head>
 
- <body class="bg-[#FFFFFF] flex flex-col min-h-screen">
+ <body class="bg-black flex flex-col min-h-screen relative">
+     <img src="bg-style.png" alt="" class="absolute inset-0 w-full h-full object-cover z-0 opacity-15">
 
-     <header class=" text-black mx-2 p-3 rounded-b-3xl shadow-lg">
+     <header class="bg-white text-black z-10 mx-2 p-3 rounded-b-3xl shadow-lg">
          <div class="max-w-6xl mx-auto px-4 flex justify-between items-center h-16">
              <!-- Logo -->
              <div class="text-2xl font-medium font-dm-sans tracking-tighter8">Rest Area 754 A</div>
@@ -52,10 +61,10 @@
              <!-- Menu utama -->
              <nav>
                  <ul id="menu" class="hidden md:flex space-x-6">
-                     <li><a href="#" class="hover:text-gray-300">Home</a></li>
-                     <li><a href="#" class="hover:text-gray-300">Tentang</a></li>
-                     <li><a href="#" class="hover:text-gray-300">Layanan</a></li>
-                     <li><a href="#" class="hover:text-gray-300">Kontak</a></li>
+                     <li><a href="{{ route('beranda') }}" class="hover:text-gray-300">Home</a></li>
+                     <li><a href="{{ route('area-monitoring') }}" class="hover:text-gray-300">Area Monitoring</a></li>
+                     {{-- <li><a href="#" class="hover:text-gray-300">Layanan</a></li>
+                     <li><a href="#" class="hover:text-gray-300">Kontak</a></li> --}}
                  </ul>
              </nav>
 
@@ -70,18 +79,18 @@
          <!-- Menu dropdown untuk mobile -->
          <div id="mobile-menu" class="hidden md:hidden bg-white">
              <ul class="flex flex-col space-y-2 px-4 py-3">
-                 <li><a href="#" class="block hover:text-gray-300">Home</a></li>
-                 <li><a href="#" class="block hover:text-gray-300">Tentang</a></li>
-                 <li><a href="#" class="block hover:text-gray-300">Layanan</a></li>
-                 <li><a href="#" class="block hover:text-gray-300">Kontak</a></li>
+                 <li><a href="{{ route('beranda') }}" class="block hover:text-gray-300">Beranda</a></li>
+                 <li><a href="{{ route('area-monitoring') }}" class="block hover:text-gray-300">Area Monitoring</a></li>
+                 {{-- <li><a href="#" class="block hover:text-gray-300">Layanan</a></li>
+                 <li><a href="#" class="block hover:text-gray-300">Kontak</a></li> --}}
              </ul>
          </div>
      </header>
 
 
-     <main class="px-10 flex flex-col md:flex-row flex-grow justify-center items-center py-10">
+     <main class="px-10 flex z-10 mb-[100px] flex-col md:flex-row flex-grow justify-center items-center py-10">
          <div class="flex flex-col gap-10 justify-center items-center mb-10">
-             <h1 class="text-xl text-center px-5">
+             <h1 class="text-xl text-center px-5 mt-10 text-white font-crimson-text">
                  Ikuti arah panah yang muncul!
              </h1>
              <div class="flex justify-center items-center h-fit w-full sm:w-[400px]">
@@ -90,15 +99,15 @@
          </div>
 
          <div class="flex flex-col gap-5 justify-center items-center">
-             <h1 class="text-xl text-red-600 text-center px-5 mb-5">
+             <h1 class="text-xl text-red-600 text-center px-5 mb-5 text-white">
                  Silahkan <span class="font-bold">menuju ke Area A</span> yang terletak pada denah dibawah ini
              </h1>
 
              <div class="position-relative w-[300px] h-[500px] flex justify-center items-center"
                  style="position: relative !important;">
                  {{-- <img class="position-absolute" src="back.svg" alt="Gambar SVG" width="380" height="" --}}
-                 <img class="position-absolute w-[291px]" src="area-a-bangunan.png" alt="Gambar SVG" width="380"
-                     height="" style="position: absolute !important;left:20px;top:20px;z-indez:0 !important;">
+                 <img class="position-absolute w-[291px]" src="area-a-bangunan-fix1.svg" alt="Gambar SVG" width="380"
+                     height="" style="position: absolute !important;left:20px;top:10px;z-indez:0 !important;">
 
                  <div class="position-absolute "
                      style="position: absolute !important;z-indez:100 !important;left:-20px;top:-41px; transform: scale(0.75);">
@@ -831,103 +840,102 @@
              mobileMenu.classList.toggle('hidden');
          });
      </script>
-     <script>
-         // --- Konfigurasi ---
-         const AREA_NAME = 'Area_A';
-         const PREFIX_ID = 'A'; // Prefix di SVG (A1, A2...)
-         const API_PREFIX = 'S'; // Prefix dari API (S1, S2...)
-         const TOTAL_SLOTS = 60; // Jumlah total slot yang ada (sesuaikan dengan max slot)
-         const API_URL = `/status/${AREA_NAME}`;
+     <script type="module">
+         // 1. Import Library
+         import {
+             initializeApp
+         } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
+         import {
+             getDatabase,
+             ref,
+             onValue
+         } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-database.js";
+         import {
+             hitungFuzzyStatus
+         } from "{{ asset('js/FuzzyLogic.js') }}";
 
-         // --- Definisi Warna ---
-         const COLOR_DEFAULT = '#D1D5DB'; // Abu-abu
-         const COLOR_AVAILABLE = '#A8CC8D'; // Hijau
-         const COLOR_OCCUPIED = '#DC2626'; // Merah
-
-         // Fungsi reset semua path jadi mati
-         function resetPaths() {
-             const allPaths = document.querySelectorAll('path[data-path]');
-             allPaths.forEach(path => {
-                 path.classList.remove('path-active');
-             });
-         }
-
-         async function updateParkingStatus() {
+         // --- FUNGSI UTAMA (ASYNC) ---
+         // Kita bungkus semua logika disini agar menunggu file JSON selesai diload dulu
+         async function startSystem() {
              try {
-                 // 1. Fetch data
-                 const response = await fetch(API_URL);
-                 if (!response.ok) throw new Error("Gagal mengambil data");
-                 const result = await response.json();
+                 // 2. LOAD CONFIG DARI FILE JSON
+                 // Pastikan file 'firebase-creds.json' ada di folder PUBLIC
+                 const response = await fetch("{{ asset('firebase-creds.json') }}");
 
-                 // Ambil data slot spesifik area
-                 const slotsData = result[AREA_NAME] || {};
+                 if (!response.ok) throw new Error("Gagal load config firebase");
+                 const firebaseConfig = await response.json();
 
-                 // 2. Reset semua Path (matikan dulu semua panah)
-                 resetPaths();
+                 // 3. INISIALISASI FIREBASE
+                 const app = initializeApp(firebaseConfig);
+                 const db = getDatabase(app);
 
-                 let nearestPathFound = false; // Flag penanda apakah parkir kosong terdekat sudah ketemu
+                 // --- SETTING LOGIKA PARKIR ---
+                 const AREA_NAME = 'Area_A';
+                 const PREFIX_ID = 'A';
+                 const API_PREFIX = 'S';
+                 const TOTAL_SLOTS = 60;
 
-                 // 3. Loop URUT dari 1 sampai TOTAL_SLOTS (Priority Logic)
-                 for (let i = 1; i <= TOTAL_SLOTS; i++) {
+                 const COLOR_DEFAULT = '#D1D5DB';
+                 const COLOR_AVAILABLE = '#A8CC8D';
+                 const COLOR_OCCUPIED = '#DC2626';
 
-                     // Construct ID
-                     const apiId = `${API_PREFIX}${i}`; // S1, S2...
-                     const svgId = `${PREFIX_ID}${i}`; // A1, A2...
-
-                     // Ambil data status slot ini
-                     const slotInfo = slotsData[apiId];
-
-                     // --- LOGIKA PEWARNAAN KOTAK (RECT) ---
-                     const rectElement = document.querySelector(`rect[data-rect="${svgId}"]`) || document.getElementById(
-                         svgId);
-
-                     let isKosong = false;
-
-                     if (rectElement) {
-                         if (slotInfo && slotInfo.status_slot === 'Terisi') {
-                             rectElement.setAttribute('fill', COLOR_OCCUPIED);
-                         } else if (slotInfo && slotInfo.status_slot === 'Kosong') {
-                             rectElement.setAttribute('fill', COLOR_AVAILABLE);
-                             isKosong = true;
-                         } else {
-                             rectElement.setAttribute('fill', COLOR_DEFAULT);
-                         }
-                     }
-
-                     // --- LOGIKA NAVIGASI PATH (PANAH) ---
-                     // Hanya jalankan jika:
-                     // 1. Slot ini Kosong
-                     // 2. DAN belum menemukan slot kosong sebelumnya (nearestPathFound masih false)
-                     if (isKosong && !nearestPathFound) {
-
-                         // Cari elemen path yang sesuai
-                         const pathElement = document.querySelector(`path[data-path="${svgId}"]`);
-
-                         if (pathElement) {
-                             // Nyalakan Path ini
-                             pathElement.classList.add('path-active');
-
-                             // Set flag jadi true agar loop berikutnya tidak menyalakan path lagi
-                             nearestPathFound = true;
-
-                             console.log(`Mengarahkan ke slot terdekat: ${svgId}`);
-                         }
-                     }
+                 function resetPaths() {
+                     document.querySelectorAll('path[data-path]').forEach(p => p.classList.remove('path-active'));
                  }
 
-                 // Opsional: Jika penuh semua (nearestPathFound tetep false),
-                 // mungkin mau menampilkan pesan "PARKIR PENUH" di HTML
+                 // 4. JALANKAN LISTENER REALTIME
+                 const areaRef = ref(db, 'Parkir/' + AREA_NAME);
+
+                 onValue(areaRef, (snapshot) => {
+                     const data = snapshot.val();
+                     if (!data) return;
+
+                     resetPaths();
+                     let nearestPathFound = false;
+
+                     for (let i = 1; i <= TOTAL_SLOTS; i++) {
+                         const apiId = `${API_PREFIX}${i}`;
+                         const svgId = `${PREFIX_ID}${i}`;
+                         const slotData = data[apiId];
+
+                         const rectElement = document.getElementById(svgId) || document.querySelector(
+                             `rect[data-rect="${svgId}"]`);
+
+                         if (rectElement && slotData) {
+                             const jarak = parseFloat(slotData.jarak || 20);
+                             const infra = slotData.status_inframerah;
+                             const ultra = slotData.status_ultrasonik;
+
+                             // Hitung Fuzzy
+                             const statusKeputusan = hitungFuzzyStatus(jarak, infra, ultra);
+
+                             // Update UI
+                             if (statusKeputusan === 'Terisi') {
+                                 rectElement.setAttribute('fill', COLOR_OCCUPIED);
+                             } else {
+                                 rectElement.setAttribute('fill', COLOR_AVAILABLE);
+                                 if (!nearestPathFound) {
+                                     const pathElement = document.querySelector(`path[data-path="${svgId}"]`);
+                                     if (pathElement) {
+                                         pathElement.classList.add('path-active');
+                                         nearestPathFound = true;
+                                     }
+                                 }
+                             }
+                         }
+                     }
+                 });
+
+                 console.log("Sistem Parkir Berjalan...");
 
              } catch (error) {
-                 console.error("Error fetch data:", error);
+                 console.error("Error Sistem:", error);
+                 alert("Gagal memuat konfigurasi. Cek console.");
              }
          }
 
-         // Jalankan logika
-         document.addEventListener('DOMContentLoaded', () => {
-             updateParkingStatus();
-             setInterval(updateParkingStatus, 2000);
-         });
+         // Jalankan sistem
+         startSystem();
      </script>
  </body>
 
