@@ -33,155 +33,213 @@
      </script> --}}
 </head>
 
-<body class="bg-black flex flex-col min-h-screen relative">
-    <img src="bg-style.png" alt="" class="absolute inset-0 w-full h-full object-cover z-0 opacity-15">
-    <header class="bg-white text-black z-10 mx-2 p-3 rounded-b-3xl shadow-lg">
-         <div class="max-w-6xl mx-auto px-4 flex justify-between items-center h-16">
-             <!-- Logo -->
-             <div class="text-2xl font-medium font-dm-sans tracking-tighter8">Rest Area 754 A</div>
+<body class="bg-white text-slate-900 font-dm-sans min-h-screen overflow-x-hidden">
 
-             <!-- Menu utama -->
-             <nav>
-                 <ul id="menu" class="hidden md:flex space-x-6">
-                     <li><a href="{{ route('beranda') }}" class="hover:text-gray-300">Home</a></li>
-                     <li><a href="{{ route('area-monitoring') }}" class="hover:text-gray-300">Area Monitoring</a></li>
-                     {{-- <li><a href="#" class="hover:text-gray-300">Layanan</a></li>
-                     <li><a href="#" class="hover:text-gray-300">Kontak</a></li> --}}
-                 </ul>
-             </nav>
+    <!-- subtle grid pattern background -->
+    <div aria-hidden="true" class="fixed inset-0 -z-10 pointer-events-none">
+        <div class="absolute inset-0 bg-white"></div>
 
-             <!-- Tombol burger -->
-             <button id="burger" class="md:hidden flex flex-col space-y-1">
-                 <span class="w-6 h-1 bg-black"></span>
-                 <span class="w-6 h-1 bg-black"></span>
-                 <span class="w-6 h-1 bg-black"></span>
-             </button>
-         </div>
-
-         <!-- Menu dropdown untuk mobile -->
-         <div id="mobile-menu" class="hidden md:hidden bg-white">
-             <ul class="flex flex-col space-y-2 px-4 py-3">
-                 <li><a href="{{ route('beranda') }}" class="block hover:text-gray-300">Beranda</a></li>
-                 <li><a href="{{ route('area-monitoring') }}" class="block hover:text-gray-300">Area Monitoring</a></li>
-                 {{-- <li><a href="#" class="block hover:text-gray-300">Layanan</a></li>
-                 <li><a href="#" class="block hover:text-gray-300">Kontak</a></li> --}}
-             </ul>
-         </div>
-     </header>
-
-    <main class="flex mx-5 flex-col flex-grow z-10">
-        <div class="flex flex-col border-b border-gray-400 justify-evenly items-center min-h-screen relative">
-
-            <!-- Gambar sebagai layer belakang -->
-
-            <!-- Konten di atas gambar -->
-            <h1 class="text-4xl text-center z-10 text-white font-crimson-text">Temukan Lahan Parkir Kosong</h1>
-
-            <a href="{{ route('hal2') }}"
-                class="flex z-10 mt-10 justify-center cursor-pointer items-center transition-transform duration-300 ease-out hover:scale-105 text-white font-bold gap-0.5 bg-[#485c11] px-[22px] py-3.5 rounded-[1000px]">
-                Arahkan ke Parkir terdekat
-            </a>
+        <!-- grid -->
+        <div class="absolute inset-0 opacity-[0.06]"
+            style="background-image:
+        linear-gradient(to right, #0f172a 1px, transparent 1px),
+        linear-gradient(to bottom, #0f172a 1px, transparent 1px);
+        background-size: 36px 36px;">
         </div>
 
-
-
-        <div class="flex flex-col gap-[50px] justify-center items-center min-h-screen">
-            <h1 class="text-4xl text-center text-white font-crimson-text">Monitoring Lahan Parkir</h1>
-            <p class="text-center text-white">Cek Lahan yang tersedia di setiap area parkir yang ada secara real-time
-            </p>
-            <a href="{{ route('area-monitoring') }}"
-                class="flex flex-col transition-transform duration-300 ease-out hover:scale-105 text-black  justify-center items-center gap-2.5 bg-[#dfecc6] px-[22px] py-3.5 rounded-[1000px]">
-                Cek sekarang juga
-            </a>
-
+        <!-- accent corner gradients -->
+        <div
+            class="absolute -top-24 -left-24 w-[420px] h-[420px] rounded-full bg-gradient-to-br from-[#dfecc6] to-transparent blur-2xl opacity-70">
         </div>
-        <div class="flex flex-col px-0 sm:px-5 justify-evenly items-center min-h-screen">
-            <hr class="w-full border-1 border-gray-400">
-            <div class="flex flex-col py-10 gap-5 w-full">
-                <h1 class="text-2xl text-start text-white font-crimson-text">Selamat datang di rest area 754 A</h1>
-                <p class="text-white text-start text-white">Rest Area dengan banyak fasilitas yang akan menyenangkan kalian para
-                    pengemudi yang ingin beristirahat. </p>
-            </div>
-            <hr class="w-full border-1 border-gray-400">
+        <div
+            class="absolute top-10 -right-24 w-[420px] h-[420px] rounded-full bg-gradient-to-bl from-[#e0e7ff] to-transparent blur-2xl opacity-70">
+        </div>
+    </div>
 
-            <div class="flex flex-col justify-start w-full items-start py-10 gap-5">
-                <div class="flex justify-center items-center mb-5">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M15.9 15.39C15.64 14.59 14.89 14 14 14H13V11C13 10.7348 12.8946 10.4804 12.7071 10.2929C12.5196 10.1054 12.2652 10 12 10H6V8H8C8.26522 8 8.51957 7.89464 8.70711 7.70711C8.89464 7.51957 9 7.26522 9 7V5H11C11.5304 5 12.0391 4.78929 12.4142 4.41421C12.7893 4.03914 13 3.53043 13 3V2.59C15.93 3.77 18 6.64 18 10C18 12.08 17.2 13.97 15.9 15.39ZM9 17.93C5.05 17.44 2 14.08 2 10C2 9.38 2.08 8.78 2.21 8.21L7 13V14C7 14.5304 7.21071 15.0391 7.58579 15.4142C7.96086 15.7893 8.46957 16 9 16M10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0Z"
-                            fill="white" />
-                    </svg>
+    <!-- HEADER -->
+    <header class="sticky top-0 z-30 bg-white/95 backdrop-blur border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <div class="py-3 flex items-center justify-between">
+                <div class="text-2xl sm:text-3xl font-bold tracking-tighter8 flex items-center gap-2">
+                    Rest Area 754 A
                 </div>
-                <h1 class="text-md sm:text-2xl text-start text-white font-crimson-text">
-                    Pantau Ketersediaan slot parkir secara online untuk mempermudah pencarian parkir
-                </h1>
-                <p class="text-white text-start">
-                    Kami menawarkan fitur monitoring agar pengendara tidak membuang terlalu banyak waktu dalam pencarian
-                    lahan parkir.
+
+                <nav class="hidden md:block">
+                    <ul class="flex items-center gap-1 lg:gap-2 text-lg font-semibold">
+                        <li><a href="{{ route('beranda') ?? '/' }}"
+                                class="px-4 py-3 rounded-full hover:bg-slate-100">Beranda</a></li>
+                        <li><a href="{{ route('hal2') ?? '#' }}"
+                                class="px-4 py-3 rounded-full hover:bg-slate-100">Parkir</a></li>
+                        <li><a href="{{ route('area-monitoring') ?? '#' }}"
+                                class="px-4 py-3 rounded-full bg-slate-900 text-white hover:bg-slate-800">Monitoring</a>
+                        </li>
+                        <li><a href="#kontak" class="px-4 py-3 rounded-full hover:bg-slate-100">Bantuan</a></li>
+                    </ul>
+                </nav>
+
+                <button id="burger" class="md:hidden p-3 rounded-xl hover:bg-slate-100" aria-label="Buka menu">
+                    <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <nav id="mobile-menu" class="hidden md:hidden pb-4">
+                <ul class="flex flex-col gap-2 text-lg font-semibold">
+                    <li><a href="{{ route('beranda') ?? '/' }}"
+                            class="block px-4 py-3 rounded-xl hover:bg-slate-100">Beranda</a></li>
+                    <li><a href="{{ route('hal2') ?? '#' }}"
+                            class="block px-4 py-3 rounded-xl hover:bg-slate-100">Parkir</a></li>
+                    <li><a href="{{ route('area-monitoring') ?? '#' }}"
+                            class="block px-4 py-3 rounded-xl bg-slate-900 text-white hover:bg-slate-800">Monitoring</a>
+                    </li>
+                    <li><a href="#kontak" class="block px-4 py-3 rounded-xl hover:bg-slate-100">Bantuan</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="content" class="max-w-6xl mx-auto px-5 sm:px-8">
+
+        <!-- HERO -->
+        <section id="home" class="py-12 sm:py-16">
+            <div
+                class="rounded-3xl bg-white border border-slate-200 shadow-lift px-6 sm:px-10 py-10 sm:py-14 relative overflow-hidden">
+
+                <!-- accent stripe -->
+                <div aria-hidden="true"
+                    class="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-[#6b8f1a] via-[#a3e635] to-[#60a5fa]">
+                </div>
+
+                <div class="max-w-3xl mx-auto text-center space-y-5">
+
+                    <h1 class="font-crimson-text text-4xl sm:text-5xl lg:text-6xl leading-tight">
+                        Temukan Lahan Parkir Kosong
+                    </h1>
+
+                    <p class="text-lg sm:text-xl text-slate-700">
+                        Cek slot kosong sekarang dan langsung diarahkan ke area terdekat.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center pt-2">
+                        <a href="{{ route('hal2') }}"
+                            class="inline-flex items-center justify-center min-h-[62px] px-9 py-4 rounded-full
+                      bg-[#6b8f1a] hover:bg-[#7aa61e] text-white text-xl font-bold shadow-soft
+                      transition-transform duration-200 hover:-translate-y-0.5">
+                            Arahkan ke Parkir Terdekat
+                        </a>
+
+                        <a href="{{ route('area-monitoring') }}"
+                            class="inline-flex items-center justify-center min-h-[62px] px-9 py-4 rounded-full
+                            bg-slate-900 text-white text-xl font-bold hover:bg-slate-800 shadow-soft
+                            transition-transform duration-200 hover:-translate-y-0.5">
+                            Monitoring Parkir
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CARA PAKAI -->
+        <section id="layanan" class="py-10 sm:py-14">
+            <h2 class="font-crimson-text text-3xl sm:text-4xl mb-6">Cara Pakai</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+                <article
+                    class="rounded-2xl bg-white border border-slate-200 p-6 sm:p-7 shadow-soft hover:shadow-lift transition">
+                    <div class="text-4xl">🅿️</div>
+                    <h3 class="text-2xl font-crimson-text mt-2">Cek Parkir Kosong</h3>
+                    <p class="text-lg text-slate-700 mt-2">Lihat jumlah slot tersedia secara real-time. <a
+                            href="{{ route('area-monitoring') }}" class="text-blue-700 text-sm">(klik disini)</a></p>
+                </article>
+
+                <article
+                    class="rounded-2xl bg-white border border-slate-200 p-6 sm:p-7 shadow-soft hover:shadow-lift transition">
+                    <div class="text-4xl">📍</div>
+                    <h3 class="text-2xl font-crimson-text mt-2">Pilih Area Terdekat</h3>
+                    <p class="text-lg text-slate-700 mt-2">Cari area yang paling dekat dari pintu masuk.</p>
+                </article>
+
+                <article
+                    class="rounded-2xl bg-white border border-slate-200 p-6 sm:p-7 shadow-soft hover:shadow-lift transition">
+                    <div class="text-4xl">🧭</div>
+                    <h3 class="text-2xl font-crimson-text mt-2">Ikuti Arah</h3>
+                    <p class="text-lg text-slate-700 mt-2">Ikuti petunjuk untuk sampai ke slot kosong.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- TENTANG -->
+        <section id="tentang" class="py-12 sm:py-16">
+            <div class="rounded-3xl bg-white border border-slate-200 shadow-soft p-7 sm:p-10">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div class="space-y-4">
+                        <h2 class="font-crimson-text text-3xl sm:text-4xl">
+                            Selamat Datang di Rest Area 754 A
+                        </h2>
+                        <p class="text-lg sm:text-xl text-slate-700">
+                            Rest Area dengan banyak fasilitas yang menyenangkan untuk pengemudi yang ingin beristirahat
+                            aman dan nyaman.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FASILITAS -->
+        <section id="fasilitas" class="py-12 sm:py-16 border-t border-slate-200">
+            <div class="space-y-3">
+                <h2 class="font-crimson-text text-3xl sm:text-4xl">
+                    Apa saja yang ada di rest area kami
+                </h2>
+                <p class="text-lg sm:text-xl text-slate-700">
+                    Berikut beberapa fasilitas yang tersedia di Rest Area 754 A.
                 </p>
             </div>
-            <hr class="w-full border-1 border-gray-400">
 
-            <div class="flex flex-col w-full justify-start items-start py-10 gap-5">
-                <div class="flex justify-center items-center mb-5">
-                    <svg width="22" height="19" viewBox="0 0 22 19" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M8 3C9.06087 3 10.0783 3.42143 10.8284 4.17157C11.5786 4.92172 12 5.93913 12 7C12 8.06087 11.5786 9.07828 10.8284 9.82843C10.0783 10.5786 9.06087 11 8 11C6.93913 11 5.92172 10.5786 5.17157 9.82843C4.42143 9.07828 4 8.06087 4 7C4 5.93913 4.42143 4.92172 5.17157 4.17157C5.92172 3.42143 6.93913 3 8 3ZM8 13C10.67 13 16 14.34 16 17V19H0V17C0 14.34 5.33 13 8 13ZM15.76 3.36C17.78 5.56 17.78 8.61 15.76 10.63L14.08 8.94C14.92 7.76 14.92 6.23 14.08 5.05L15.76 3.36ZM19.07 0C23 4.05 22.97 10.11 19.07 14L17.44 12.37C20.21 9.19 20.21 4.65 17.44 1.63L19.07 0Z"
-                            fill="white" />
-                    </svg>
+            <div class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div class="rounded-2xl bg-white border border-slate-200 p-6 shadow-soft hover:shadow-lift transition">
+                    <div class="text-3xl">🛋️</div>
+                    <h3 class="text-xl font-semibold mt-2">Spot Istirahat</h3>
+                    <p class="text-slate-700 mt-1">Area santai untuk reset tenaga.</p>
                 </div>
-                <h1 class="text-2xl text-start text-white font-crimson-text">
-                    Arahkan ke tempat parkir terdekat
-                </h1>
-                <p class="text-white text-start">
-                    Dengan fitur arahkan, kami memberikan opsi bagi pengendara agar mampu parkir dengan jarak terdekat
-                    dari lokasi pintu masuk.
+                <div class="rounded-2xl bg-white border border-slate-200 p-6 shadow-soft hover:shadow-lift transition">
+                    <div class="text-3xl">🍜</div>
+                    <h3 class="text-xl font-semibold mt-2">Spot Makan</h3>
+                    <p class="text-slate-700 mt-1">Pilihan makanan & minuman lengkap.</p>
+                </div>
+                <div class="rounded-2xl bg-white border border-slate-200 p-6 shadow-soft hover:shadow-lift transition">
+                    <div class="text-3xl">🕌</div>
+                    <h3 class="text-xl font-semibold mt-2">Spot Beribadah</h3>
+                    <p class="text-slate-700 mt-1">Mushola nyaman dan bersih.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- KONTAK / BANTUAN -->
+        <section id="kontak" class="py-12 sm:py-16 border-t border-slate-200">
+            <div class="text-center space-y-3">
+                <h2 class="text-3xl sm:text-4xl font-crimson-text">Butuh Bantuan?</h2>
+                <p class="text-lg sm:text-xl text-slate-700">
+                    Hubungi kami jika ada kendala dengan website.
                 </p>
             </div>
-            <hr class="w-full border-1 border-gray-400">
-        </div>
-        <div class="flex px-5 sm:px-10 flex-col gap-[50px] justify-center items-start min-h-screen">
 
-            <h1 class="text-4xl text-start font-crimson-text text-white mt-5">Apa saja yang ada di rest area kami</h1>
-            <p class="text-start text-white">Berikut adalah beberapa fasilitas yang kami sediakan pada rest area 754
-                A.</p>
-            <div class="flex flex-col w-full items-start">
-                <div class="flex flex-row border-t w-full py-5 border-gray-400 justify-between">
-                    <p class="text p-2 center text-white font-bold">01</p>
-                    <p class="flex p-2 flex-grow text-white">Spot Istirahat</p>
-                </div>
-                <div class="flex flex-row border-t w-full py-5 border-gray-400 justify-between">
-                    <p class="text p-2 center text-white font-bold">02</p>
-                    <p class="flex p-2 flex-grow text-white">Spot Makan</p>
-                </div>
-                <div class="flex flex-row border-t w-full py-5 border-gray-400 justify-between">
-                    <p class="text p-2 center text-white font-bold">03</p>
-                    <p class="flex p-2 flex-grow text-white">Spot Beribadah</p>
-                </div>
+            <div class="mt-7 flex justify-center">
+                <a href="https://wa.me/6285736603748"
+                    class="inline-flex items-center justify-center min-h-[64px] w-full sm:w-auto
+                       px-10 py-4 rounded-full bg-[#6b8f1a] hover:bg-[#7aa61e]
+                       text-white text-xl font-bold shadow-soft transition-transform duration-200 hover:-translate-y-0.5">
+                    Kirim Pesan Bantuan 💬
+                </a>
             </div>
-        </div>
-        <div class="flex px-5 py-10 flex-col gap-[50px] justify-center items-center min-h-3/6">
-            <h1 class="text-4xl text-center text-white">
-                Connect with us
-            </h1>
-            <p class="text-center text-white">
-                Hubungi kami jika terdapat kendala dengan website
-            </p>
-            <button
-                class="flex transition-transform duration-300 ease-out hover:scale-105 flex-row w-full text-white justify-center items-center gap-2.5 bg-[#485c11] px-[22px] py-3.5 rounded-[1000px]">
-                <p class="text-center text-white">Kirim Pesan</p>
-                <div class="flex justify-center items-center text-center">
-                    <svg width="6" height="7" viewBox="0 0 6 7" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M5.01037 4.9934V1.05184L5.64939 1.09142L0.735155 6.01131L0 5.27615L4.91423 0.361923L4.96513 1.00094H1.0066V0L6 0.0113101V4.9934H5.01037Z"
-                            fill="white" />
-                    </svg>
-                </div>
-            </button>
-        </div>
+        </section>
+
+        <footer class="py-10 text-center text-slate-500 text-base border-t border-slate-200">
+            © Rest Area 754 A — Semua hak dilindungi.
+        </footer>
     </main>
 
     <script>
